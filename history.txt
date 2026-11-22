@@ -1,0 +1,5 @@
+# Pokriveni naslovi i teme (da se ne ponavljaju). Jedan red po objavi.
+# Format: YYYY-MM-DD  tip  naslov  — kratka napomena
+# tip = knjiga | tema
+
+2026-11-22  knjiga  Atomic Habits (James Clear, 2018)  — sažetak ključnih ideja + kako da se primene ako imaš ADHD
