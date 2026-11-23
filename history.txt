@@ -3,3 +3,4 @@
 # tip = knjiga | tema
 
 2026-11-22  knjiga  Atomic Habits (James Clear, 2018)  — sažetak ključnih ideja + kako da se primene ako imaš ADHD
+2026-11-23  tema  LEO protiv GEO: zašto Starlink na brodu radi drugačije od klasičnog VSAT-a  — pomorski IT: orbite, kašnjenje, antene, laserske veze, hibrid i failover

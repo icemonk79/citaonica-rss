@@ -5,7 +5,187 @@
 <link>https://icemonk79.github.io/citaonica-rss/</link>
 <description>Dnevni sažeci knjiga i kratka objašnjenja tema, pisani da se lakše čitaju</description>
 <language>sr</language>
-<lastBuildDate>Sun, 22 Nov 2026 19:43:42 +0100</lastBuildDate>
+<lastBuildDate>Mon, 23 Nov 2026 06:22:05 +0100</lastBuildDate>
+<item>
+<title>LEO protiv GEO: zašto Starlink na brodu radi drugačije od klasičnog VSAT-a</title>
+<link>https://icemonk79.github.io/citaonica-rss/#citaonica-2026-11-23</link>
+<guid isPermaLink="false">citaonica-2026-11-23</guid>
+<pubDate>Mon, 23 Nov 2026 06:22:05 +0100</pubDate>
+<description><![CDATA[<p>Tema iz pomorskog IT-a i satelitske veze. Vreme čitanja: oko 7 minuta.</p>
+<h2>Ukratko</h2>
+<ul>
+<li><b>Visina orbite određuje kašnjenje.</b> GEO satelit je na oko 35.786 km, LEO satelit (Starlink) na nekoliko stotina kilometara, pa signal putuje mnogo kraće.</li>
+<li><b>GEO "stoji", LEO "beži".</b> Antena za GEO prati jednu tačku na nebu; LEO terminal stalno prebacuje vezu s jednog satelita na drugi.</li>
+<li><b>Najbolja brodska mreža je hibridna.</b> Dve vrste veze se dopunjuju, a pravila na firewallu odlučuju koji saobraćaj ide kuda.</li>
+</ul>
+<h2>Dve porodice satelita</h2>
+<p>Kad se kaže "internet na brodu", obično se misli na jednu od dve stvari.</p>
+<p><b>GEO (geostacionarna orbita)</b> je kružna orbita iznad ekvatora, na visini od oko <b>35.786 km</b>. Satelit tu obiđe Zemlju tačno onoliko brzo koliko se Zemlja okrene, pa sa zemlje izgleda kao da miruje. Na tome je izgrađen klasični pomorski <b>VSAT</b>: antena u kupoli (radomu) se uperi u jedan satelit i drži ga dok se brod ljulja i okreće.</p>
+<p><b>LEO (niska orbita)</b> je mnogo bliže Zemlji. Starlink sateliti su postavljeni na oko <b>550 km</b> (prvi talasi), uz kasnije i niže ljuske. Na toj visini satelit preleti preko neba za nekoliko minuta, pa jedan satelit nije dovoljan. Potrebna je <b>konstelacija</b> od hiljada satelita da bi iznad vas uvek bio bar jedan.</p>
+<h2>Zašto je kašnjenje toliko važno</h2>
+<p>Svetlost (i radio-signal) je brza, ali nije beskonačno brza.</p>
+<ul>
+<li>Kod GEO veze signal mora gore do satelita i nazad dole, pa onda isto za odgovor. Samo put od zemaljske stanice do satelita i nazad traje oko <b>240 ms</b>, a ceo krug "pitanje - odgovor" je otprilike duplo duži.</li>
+<li>Kod LEO veze je rastojanje desetinama puta kraće, pa je kašnjenje <b>slično zemaljskom internetu</b>.</li>
+</ul>
+<p><b>Šta to znači u praksi:</b></p>
+<ul>
+<li>Preuzimanje velikog fajla: razlika nije dramatična, protok je bitniji od kašnjenja.</li>
+<li>Video poziv, VoIP, udaljeni desktop (RDP), VPN: na GEO vezi se oseća "kočenje", ljudi upadaju jedni drugima u reč.</li>
+<li>Mnogo malih zahteva (npr. otvaranje sajta sa stotinu elemenata, Windows ažuriranja koja proveravaju status): svaki zahtev plaća punu cenu kašnjenja.</li>
+</ul>
+<p>Zato posada na Starlinku obično prvi put kaže: "Ovo je kao kod kuće."</p>
+<h2>Kako antena "zna" kuda da gleda</h2>
+<p><b>Klasični VSAT</b> koristi mehanički stabilizovanu antenu. Motori i žiroskopi u radomu stalno ispravljaju položaj tanjira da bi ostao uperen u satelit, uprkos talasima. To radi dobro, ali ima pokretne delove, koji se troše i traže održavanje.</p>
+<p><b>Starlink terminal</b> koristi <b>fazno upravljanu antenu</b> (phased array). Ona nema tanjir koji se okreće. Umesto toga, mnogo malih antenskih elemenata menja fazu signala, pa se snop elektronski "usmerava" ka satelitu. Kad satelit ode ka horizontu, terminal prebaci vezu na sledeći, i to se dešava stalno, bez vašeg učešća.</p>
+<p><b>Ključna razlika:</b> VSAT prati jednu nepomičnu tačku; LEO terminal stalno jurca za pokretnim metama.</p>
+<h2>Šta je sa otvorenim morem</h2>
+<p>Rani LEO sistemi su imali problem: satelit je morao istovremeno da "vidi" i brod i zemaljsku stanicu (gateway). Daleko od kopna, toga nema.</p>
+<p>Starlink to rešava <b>laserskim vezama između satelita</b> (optical inter-satellite links). Sateliti prosleđuju podatke jedan drugom kroz svemir dok ne stignu do satelita koji vidi neku zemaljsku stanicu. Laserske veze su uspešno testirane krajem 2020, a raniji sateliti ih nisu imali. Upravo to je omogućilo pokrivanje okeana.</p>
+<h2>Frekvencije i vreme</h2>
+<p>I GEO i LEO sistemi za pomorstvo uglavnom rade u <b>Ku i Ka opsegu</b> (mikrotalasi visoke frekvencije). Ti opsezi nose mnogo podataka, ali imaju zajedničku slabost: <b>jaka kiša prigušuje signal</b> (rain fade). Kod Ka opsega je to izraženije.</p>
+<p>Za brod to znači:</p>
+<ul>
+<li>jaki pljuskovi mogu privremeno da smanje brzinu ili prekinu vezu, bez obzira na sistem;</li>
+<li><b>zaklonjenost</b> je čest, a manje primećen problem: jarboli, dimnjaci i radari mogu da "seku" pogled ka nebu. Kod LEO terminala, kojem treba širok pogled na nebo, mesto montaže je jednako važno kao i sam uređaj.</li>
+</ul>
+<h2>Zašto i dalje postoje oba sistema</h2>
+<p>Nije reč o tome da je jedan "bolji". Svaki ima svoje mesto:</p>
+<p><b>Prednosti GEO VSAT-a:</b></p>
+<ul>
+<li>dugo prisutan u pomorstvu, sa razvijenom podrškom i ugovorima o nivou usluge;</li>
+<li>predvidljiv: jedan satelit, poznata pokrivenost;</li>
+<li>često deo upravljanih paketa (npr. kod pružalaca koji brinu i o mreži na brodu).</li>
+</ul>
+<p><b>Prednosti LEO (Starlink):</b></p>
+<ul>
+<li>malo kašnjenje i, po pravilu, veći protok;</li>
+<li>jednostavnija instalacija, bez mehanike u antenama;</li>
+<li>odličan za posadu: pozivi, video, društvene mreže.</li>
+</ul>
+<p><b>Zato su mnoge flote prešle na hibrid:</b> obe veze rade istovremeno, a mreža odlučuje šta ide kuda.</p>
+<h2>Kako izgleda hibrid u praksi</h2>
+<p>Ovde ulazi firewall ili SD-WAN uređaj (npr. FortiGate ili Kerio Control). Tipičan pristup:</p>
+<ol>
+<li><b>Dva WAN interfejsa:</b> jedan ka VSAT modemu, jedan ka Starlink ruteru.</li>
+<li><b>Provera zdravlja veze:</b> uređaj periodično "pinguje" neku adresu preko svake veze i meri kašnjenje i gubitak paketa.</li>
+<li><b>Pravila po vrsti saobraćaja:</b></li>
+</ol>
+<p>   - poslovni sistemi i bitna komunikacija broda mogu da imaju prioritet na stabilnijoj vezi ili rezervu na drugoj;</p>
+<p>   - saobraćaj posade, video i veliki prenosi idu preko LEO veze;</p>
+<ol>
+<li><b>Automatski prelaz (failover):</b> kad jedna veza padne, saobraćaj se prebaci na drugu.</li>
+</ol>
+<p><b>Napomena iz prakse:</b> kad saobraćaj promeni vezu, menja se i javna IP adresa. VPN tuneli i sesije koje zavise od IP adrese tada mogu da se prekinu. Dobro je to unapred uzeti u obzir pri podešavanju.</p>
+<h2>Bezbednost na umu</h2>
+<p>Bez obzira na vrstu veze, brod je mreža kao i svaka druga:</p>
+<ul>
+<li><b>odvojite mrežu posade od operativne mreže broda</b> (VLAN-ovi i pravila na firewallu);</li>
+<li>ne izlažite administrativne interfejse terminala i modema ka internetu;</li>
+<li>redovno ažurirajte firmver na firewallu.</li>
+</ul>
+<h2>Šta da zapamtiš</h2>
+<ul>
+<li><b>GEO je daleko i "miruje"</b> - veća latencija, ali dugo prisutan i predvidljiv.</li>
+<li><b>LEO je blizu i stalno se kreće</b> - malo kašnjenje, ali traži konstelaciju i laserske veze za okeane.</li>
+<li><b>Hibrid + pametna pravila na firewallu</b> daju najbolje od oba sveta.</li>
+</ul>
+<h2>Izvori</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Geostationary_orbit">Geostationary orbit - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Starlink">Starlink - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Very-small-aperture_terminal">Very-small-aperture terminal - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Rain_fade">Rain fade - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Phased_array">Phased array - Wikipedia</a></li>
+</ul>]]></description>
+<content:encoded><![CDATA[<p>Tema iz pomorskog IT-a i satelitske veze. Vreme čitanja: oko 7 minuta.</p>
+<h2>Ukratko</h2>
+<ul>
+<li><b>Visina orbite određuje kašnjenje.</b> GEO satelit je na oko 35.786 km, LEO satelit (Starlink) na nekoliko stotina kilometara, pa signal putuje mnogo kraće.</li>
+<li><b>GEO "stoji", LEO "beži".</b> Antena za GEO prati jednu tačku na nebu; LEO terminal stalno prebacuje vezu s jednog satelita na drugi.</li>
+<li><b>Najbolja brodska mreža je hibridna.</b> Dve vrste veze se dopunjuju, a pravila na firewallu odlučuju koji saobraćaj ide kuda.</li>
+</ul>
+<h2>Dve porodice satelita</h2>
+<p>Kad se kaže "internet na brodu", obično se misli na jednu od dve stvari.</p>
+<p><b>GEO (geostacionarna orbita)</b> je kružna orbita iznad ekvatora, na visini od oko <b>35.786 km</b>. Satelit tu obiđe Zemlju tačno onoliko brzo koliko se Zemlja okrene, pa sa zemlje izgleda kao da miruje. Na tome je izgrađen klasični pomorski <b>VSAT</b>: antena u kupoli (radomu) se uperi u jedan satelit i drži ga dok se brod ljulja i okreće.</p>
+<p><b>LEO (niska orbita)</b> je mnogo bliže Zemlji. Starlink sateliti su postavljeni na oko <b>550 km</b> (prvi talasi), uz kasnije i niže ljuske. Na toj visini satelit preleti preko neba za nekoliko minuta, pa jedan satelit nije dovoljan. Potrebna je <b>konstelacija</b> od hiljada satelita da bi iznad vas uvek bio bar jedan.</p>
+<h2>Zašto je kašnjenje toliko važno</h2>
+<p>Svetlost (i radio-signal) je brza, ali nije beskonačno brza.</p>
+<ul>
+<li>Kod GEO veze signal mora gore do satelita i nazad dole, pa onda isto za odgovor. Samo put od zemaljske stanice do satelita i nazad traje oko <b>240 ms</b>, a ceo krug "pitanje - odgovor" je otprilike duplo duži.</li>
+<li>Kod LEO veze je rastojanje desetinama puta kraće, pa je kašnjenje <b>slično zemaljskom internetu</b>.</li>
+</ul>
+<p><b>Šta to znači u praksi:</b></p>
+<ul>
+<li>Preuzimanje velikog fajla: razlika nije dramatična, protok je bitniji od kašnjenja.</li>
+<li>Video poziv, VoIP, udaljeni desktop (RDP), VPN: na GEO vezi se oseća "kočenje", ljudi upadaju jedni drugima u reč.</li>
+<li>Mnogo malih zahteva (npr. otvaranje sajta sa stotinu elemenata, Windows ažuriranja koja proveravaju status): svaki zahtev plaća punu cenu kašnjenja.</li>
+</ul>
+<p>Zato posada na Starlinku obično prvi put kaže: "Ovo je kao kod kuće."</p>
+<h2>Kako antena "zna" kuda da gleda</h2>
+<p><b>Klasični VSAT</b> koristi mehanički stabilizovanu antenu. Motori i žiroskopi u radomu stalno ispravljaju položaj tanjira da bi ostao uperen u satelit, uprkos talasima. To radi dobro, ali ima pokretne delove, koji se troše i traže održavanje.</p>
+<p><b>Starlink terminal</b> koristi <b>fazno upravljanu antenu</b> (phased array). Ona nema tanjir koji se okreće. Umesto toga, mnogo malih antenskih elemenata menja fazu signala, pa se snop elektronski "usmerava" ka satelitu. Kad satelit ode ka horizontu, terminal prebaci vezu na sledeći, i to se dešava stalno, bez vašeg učešća.</p>
+<p><b>Ključna razlika:</b> VSAT prati jednu nepomičnu tačku; LEO terminal stalno jurca za pokretnim metama.</p>
+<h2>Šta je sa otvorenim morem</h2>
+<p>Rani LEO sistemi su imali problem: satelit je morao istovremeno da "vidi" i brod i zemaljsku stanicu (gateway). Daleko od kopna, toga nema.</p>
+<p>Starlink to rešava <b>laserskim vezama između satelita</b> (optical inter-satellite links). Sateliti prosleđuju podatke jedan drugom kroz svemir dok ne stignu do satelita koji vidi neku zemaljsku stanicu. Laserske veze su uspešno testirane krajem 2020, a raniji sateliti ih nisu imali. Upravo to je omogućilo pokrivanje okeana.</p>
+<h2>Frekvencije i vreme</h2>
+<p>I GEO i LEO sistemi za pomorstvo uglavnom rade u <b>Ku i Ka opsegu</b> (mikrotalasi visoke frekvencije). Ti opsezi nose mnogo podataka, ali imaju zajedničku slabost: <b>jaka kiša prigušuje signal</b> (rain fade). Kod Ka opsega je to izraženije.</p>
+<p>Za brod to znači:</p>
+<ul>
+<li>jaki pljuskovi mogu privremeno da smanje brzinu ili prekinu vezu, bez obzira na sistem;</li>
+<li><b>zaklonjenost</b> je čest, a manje primećen problem: jarboli, dimnjaci i radari mogu da "seku" pogled ka nebu. Kod LEO terminala, kojem treba širok pogled na nebo, mesto montaže je jednako važno kao i sam uređaj.</li>
+</ul>
+<h2>Zašto i dalje postoje oba sistema</h2>
+<p>Nije reč o tome da je jedan "bolji". Svaki ima svoje mesto:</p>
+<p><b>Prednosti GEO VSAT-a:</b></p>
+<ul>
+<li>dugo prisutan u pomorstvu, sa razvijenom podrškom i ugovorima o nivou usluge;</li>
+<li>predvidljiv: jedan satelit, poznata pokrivenost;</li>
+<li>često deo upravljanih paketa (npr. kod pružalaca koji brinu i o mreži na brodu).</li>
+</ul>
+<p><b>Prednosti LEO (Starlink):</b></p>
+<ul>
+<li>malo kašnjenje i, po pravilu, veći protok;</li>
+<li>jednostavnija instalacija, bez mehanike u antenama;</li>
+<li>odličan za posadu: pozivi, video, društvene mreže.</li>
+</ul>
+<p><b>Zato su mnoge flote prešle na hibrid:</b> obe veze rade istovremeno, a mreža odlučuje šta ide kuda.</p>
+<h2>Kako izgleda hibrid u praksi</h2>
+<p>Ovde ulazi firewall ili SD-WAN uređaj (npr. FortiGate ili Kerio Control). Tipičan pristup:</p>
+<ol>
+<li><b>Dva WAN interfejsa:</b> jedan ka VSAT modemu, jedan ka Starlink ruteru.</li>
+<li><b>Provera zdravlja veze:</b> uređaj periodično "pinguje" neku adresu preko svake veze i meri kašnjenje i gubitak paketa.</li>
+<li><b>Pravila po vrsti saobraćaja:</b></li>
+</ol>
+<p>   - poslovni sistemi i bitna komunikacija broda mogu da imaju prioritet na stabilnijoj vezi ili rezervu na drugoj;</p>
+<p>   - saobraćaj posade, video i veliki prenosi idu preko LEO veze;</p>
+<ol>
+<li><b>Automatski prelaz (failover):</b> kad jedna veza padne, saobraćaj se prebaci na drugu.</li>
+</ol>
+<p><b>Napomena iz prakse:</b> kad saobraćaj promeni vezu, menja se i javna IP adresa. VPN tuneli i sesije koje zavise od IP adrese tada mogu da se prekinu. Dobro je to unapred uzeti u obzir pri podešavanju.</p>
+<h2>Bezbednost na umu</h2>
+<p>Bez obzira na vrstu veze, brod je mreža kao i svaka druga:</p>
+<ul>
+<li><b>odvojite mrežu posade od operativne mreže broda</b> (VLAN-ovi i pravila na firewallu);</li>
+<li>ne izlažite administrativne interfejse terminala i modema ka internetu;</li>
+<li>redovno ažurirajte firmver na firewallu.</li>
+</ul>
+<h2>Šta da zapamtiš</h2>
+<ul>
+<li><b>GEO je daleko i "miruje"</b> - veća latencija, ali dugo prisutan i predvidljiv.</li>
+<li><b>LEO je blizu i stalno se kreće</b> - malo kašnjenje, ali traži konstelaciju i laserske veze za okeane.</li>
+<li><b>Hibrid + pametna pravila na firewallu</b> daju najbolje od oba sveta.</li>
+</ul>
+<h2>Izvori</h2>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Geostationary_orbit">Geostationary orbit - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Starlink">Starlink - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Very-small-aperture_terminal">Very-small-aperture terminal - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Rain_fade">Rain fade - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Phased_array">Phased array - Wikipedia</a></li>
+</ul>]]></content:encoded>
+</item>
 <item>
 <title>Atomske navike: male promene, veći rezultat</title>
 <link>https://icemonk79.github.io/citaonica-rss/#citaonica-2026-11-22</link>
