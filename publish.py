@@ -5,8 +5,8 @@ Adds (or replaces same-day) the item in items.json, keeps the latest 14 items,
 rebuilds feed.xml, commits and pushes.
 
 At publish time, emoji and other pictographic symbols are replaced with small
-hosted <img> tags (Twemoji PNGs under icons/) so e-readers such as PocketBook
-do not show empty squares.
+embedded <img> tags (Twemoji PNGs as data:image URIs) so e-readers such as
+PocketBook that cannot fetch remote images may still show the icons.
 """
 import sys,re,html,email.utils,datetime,subprocess,zoneinfo,os,json
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
