@@ -5,7 +5,191 @@
 <link>https://icemonk79.github.io/citaonica-rss/</link>
 <description>Dnevni sažeci knjiga i kratka objašnjenja tema, pisani da se lakše čitaju</description>
 <language>sr</language>
-<lastBuildDate>Tue, 24 Nov 2026 06:27:04 +0100</lastBuildDate>
+<lastBuildDate>Wed, 25 Nov 2026 06:27:55 +0100</lastBuildDate>
+<item>
+<title>Segmentacija brodske mreže: zašto Wi-Fi za goste ne sme da vidi most</title>
+<link>https://icemonk79.github.io/citaonica-rss/#citaonica-2026-11-25</link>
+<guid isPermaLink="false">citaonica-2026-11-25</guid>
+<pubDate>Wed, 25 Nov 2026 06:27:55 +0100</pubDate>
+<description><![CDATA[<p>Tema iz mreža i bezbednosti, sa primerima sa broda. Vreme čitanja: oko 7 minuta.</p>
+<h2>Ukratko</h2>
+<ul>
+<li><b>Ravna mreža je jedna velika soba.</b> Ako su svi uređaji u istoj mreži, jedan zaražen laptop može da "vidi" i napadne sve ostalo, pa i opremu na mostu.</li>
+<li><b>Segmentacija znači zone i vrata između njih.</b> VLAN-ovi dele mrežu na delove, a firewall odlučuje šta sme da pređe iz jedne zone u drugu.</li>
+<li><b>Pravilo je "zabrani sve, dozvoli samo potrebno".</b> Između zona prolazi samo saobraćaj koji ima jasan razlog, i to se zapisuje i proverava.</li>
+</ul>
+<h2>Problem: ravna mreža</h2>
+<p>Na mnogim starijim brodovima mreža je rasla "usput". Doda se switch za kabine, pa access point za goste, pa računar za ECDIS servis, pa kamera. Na kraju sve radi, ali <b>sve je u istoj mreži</b>.</p>
+<p>To je kao stan bez unutrašnjih vrata. Ko uđe na jedna vrata, može u svaku sobu.</p>
+<p><b>Zašto je to opasno:</b></p>
+<ul>
+<li>Gost ili član posade donese laptop sa zlonamernim programom.</li>
+<li>Program skenira mrežu i nalazi sve što odgovara: štampače, NAS, kamere, servisne računare.</li>
+<li>Uređaji koji se retko ažuriraju (kamere, kontroleri, stari Windows na servisnom računaru) su laka meta.</li>
+<li>Problem iz "zabavnog" dela mreže može da stigne do sistema koji su važni za plovidbu.</li>
+</ul>
+<h2>Rešenje: zone</h2>
+<p>Ideja je jednostavna: <b>grupiši uređaje po tome koliko su važni i koliko im veruješ</b>, i svaku grupu stavi u posebnu zonu.</p>
+<p>Tipična podela na brodu (jahti ili trgovačkom brodu) izgleda otprilike ovako:</p>
+<ul>
+<li><b>Navigacija i most (OT)</b> - radari, ECDIS, sistemi koji su vezani za plovidbu. Najviša zaštita, najmanje veza ka spolja.</li>
+<li><b>Mašina i automatika (OT)</b> - kontroleri, alarmni sistemi, nadzor pogona.</li>
+<li><b>Brodska administracija (IT)</b> - računari kapetana i oficira, poslovni mejl, dokumenta.</li>
+<li><b>Posada</b> - lični telefoni i laptopovi, zabava, društvene mreže.</li>
+<li><b>Gosti</b> - na jahti posebno važna zona, potpuno odvojena od svega ostalog.</li>
+<li><b>Upravljanje</b> - pristup switchevima, firewallu, access pointovima. Samo za administratora.</li>
+<li><b>IoT i kamere</b> - uređaji koji rade jednu stvar i retko dobijaju ažuriranja.</li>
+</ul>
+<p><b>OT</b> (operativna tehnologija) su sistemi koji upravljaju fizičkim stvarima. <b>IT</b> su klasični računari i podaci. Na brodu je ta razlika ključna, jer greška u OT delu nije samo izgubljen fajl.</p>
+<h2>Kako se to tehnički radi</h2>
+<h3>VLAN: odvojene mreže na istim kablovima</h3>
+<p><b>VLAN</b> (virtuelni LAN) omogućava da jedan fizički switch nosi više logički odvojenih mreža. Svaki port ili Wi-Fi mreža (SSID) dobije oznaku VLAN-a.</p>
+<ul>
+<li>Port u kabini - VLAN posade.</li>
+<li>SSID za goste - VLAN gostiju.</li>
+<li>Port na mostu - VLAN navigacije.</li>
+</ul>
+<p>Uređaji u različitim VLAN-ovima <b>ne vide jedni druge direktno</b>. Da bi saobraćaj prešao iz jednog u drugi, mora da prođe kroz ruter ili firewall.</p>
+<h3>Firewall: vrata između zona</h3>
+<p>Ovde ulaze FortiGate, Kerio Control i slični uređaji. Svaki VLAN postane posebna zona ili interfejs, i onda se pišu pravila.</p>
+<p><b>Dobra pravila izgledaju ovako:</b></p>
+<ul>
+<li>Gosti smeju samo ka internetu. Nikako ka drugim zonama.</li>
+<li>Posada sme ka internetu, uz ograničenje protoka da ne pojede vezu.</li>
+<li>Administracija sme ka internetu i ka određenim serverima.</li>
+<li>Navigacija sme samo tamo gde zaista mora (na primer, jedan određeni server za ažuriranje karata), i ništa drugo.</li>
+<li>Zona za upravljanje je dostupna samo sa administratorskog računara.</li>
+</ul>
+<p><b>Pravilo na kraju liste: sve ostalo se odbija i beleži u log.</b></p>
+<h3>Izolacija klijenata na Wi-Fi mreži</h3>
+<p>Čak i unutar iste zone gostiju, telefoni ne moraju da vide jedni druge. Većina access pointova ima opciju <b>izolacije klijenata</b> (client isolation). Za goste i posadu to je skoro uvek dobra ideja.</p>
+<h2>Zašto ovo nije samo "dobra praksa"</h2>
+<p>Pomorska industrija je poslednjih godina formalizovala sajber bezbednost:</p>
+<ul>
+<li><b>IMO</b> je rezolucijom MSC.428(98) tražio da se sajber rizici uključe u sistem upravljanja bezbednošću broda (ISM), najkasnije do prve godišnje provere kompanije posle 1. januara 2021.</li>
+<li><b>IACS</b> je doneo jedinstvene zahteve <b>UR E26</b> (sajber otpornost broda) i <b>UR E27</b> (sajber otpornost sistema i opreme na brodu). Oni se primenjuju na brodove ugovorene za gradnju od 1. jula 2024. Segmentacija mreže i kontrola tokova između zona su njihov važan deo.</li>
+<li><b>BIMCO</b> i drugi industrijski partneri izdaju smernice za sajber bezbednost na brodu, koje takođe preporučuju odvajanje mreža.</li>
+</ul>
+<p>Drugim rečima: kad inspektor ili klasa pita "kako je odvojena navigacija od Wi-Fi-ja za goste", odgovor "sve je u jednoj mreži" više nije prihvatljiv.</p>
+<h2>Česte greške</h2>
+<ul>
+<li><b>"Privremeno" pravilo "any-any".</b> Doda se da nešto proradi, i ostane godinama.</li>
+<li><b>Upravljački interfejsi dostupni svima.</b> Stranica za podešavanje switcha ili firewalla otvorena iz mreže posade.</li>
+<li><b>Servisni pristup bez kontrole.</b> Daljinski pristup za proizvođača opreme koji je uvek uključen. Bolje je da se pali po potrebi i gasi posle posla.</li>
+<li><b>USB kao zadnja vrata.</b> Segmentacija ne pomaže ako neko prenosi fajlove USB-om sa laptopa posade na računar na mostu.</li>
+<li><b>Nema dokumentacije.</b> Niko ne zna koji VLAN je za šta, pa se svaka izmena radi naslepo.</li>
+</ul>
+<h2>Kako da kreneš, korak po korak</h2>
+<p>Ako preuzimaš postojeću ravnu mrežu, ne moraš sve odjednom:</p>
+<ol>
+<li><b>Napravi popis uređaja.</b> Šta je na mreži, gde je, ko ga koristi. Bez toga nema plana.</li>
+<li><b>Odvoji goste prvo.</b> To je najlakši i najveći dobitak.</li>
+<li><b>Odvoji OT (most i mašinu).</b> Prvo posmatraj saobraćaj nekoliko dana da vidiš šta im stvarno treba.</li>
+<li><b>Napiši pravila od najstrožeg.</b> Dozvoli samo ono što si video da je potrebno.</li>
+<li><b>Uključi logovanje odbijenog saobraćaja.</b> Logovi ti pokažu šta si zaboravio, a i šta neko pokušava.</li>
+<li><b>Zapiši sve.</b> Jedna tabela: VLAN, opseg adresa, namena, pravila. Sledeći ETO ili IT tehničar će ti biti zahvalan.</li>
+</ol>
+<h2>Za kraj</h2>
+<p>Segmentacija ne sprečava da se nešto zarazi. Ona <b>ograničava koliko daleko problem može da se proširi</b>. Na brodu, gde je pomoć daleko a veza skupa, to je razlika između "jedan laptop ima virus" i "most ima problem".</p>
+<h2>Izvori</h2>
+<ul>
+<li><a href="https://www.imo.org/en/OurWork/Security/Pages/Cyber-security.aspx">IMO - Maritime cyber risk (MSC.428(98) i smernice MSC-FAL.1/Circ.3)</a></li>
+<li><a href="https://iacs.org.uk/resolutions/unified-requirements/ur-e">IACS - UR E26 i UR E27, Cyber resilience</a></li>
+<li><a href="https://www.bimco.org/about-us-and-our-members/publications/the-guidelines-on-cyber-security-onboard-ships">BIMCO - The Guidelines on Cyber Security Onboard Ships</a></li>
+<li><a href="https://csrc.nist.gov/pubs/sp/800/41/r1/final">NIST SP 800-41 Rev. 1 - Guidelines on Firewalls and Firewall Policy</a></li>
+<li><a href="https://en.wikipedia.org/wiki/VLAN">VLAN - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Network_segmentation">Network segmentation - Wikipedia</a></li>
+</ul>]]></description>
+<content:encoded><![CDATA[<p>Tema iz mreža i bezbednosti, sa primerima sa broda. Vreme čitanja: oko 7 minuta.</p>
+<h2>Ukratko</h2>
+<ul>
+<li><b>Ravna mreža je jedna velika soba.</b> Ako su svi uređaji u istoj mreži, jedan zaražen laptop može da "vidi" i napadne sve ostalo, pa i opremu na mostu.</li>
+<li><b>Segmentacija znači zone i vrata između njih.</b> VLAN-ovi dele mrežu na delove, a firewall odlučuje šta sme da pređe iz jedne zone u drugu.</li>
+<li><b>Pravilo je "zabrani sve, dozvoli samo potrebno".</b> Između zona prolazi samo saobraćaj koji ima jasan razlog, i to se zapisuje i proverava.</li>
+</ul>
+<h2>Problem: ravna mreža</h2>
+<p>Na mnogim starijim brodovima mreža je rasla "usput". Doda se switch za kabine, pa access point za goste, pa računar za ECDIS servis, pa kamera. Na kraju sve radi, ali <b>sve je u istoj mreži</b>.</p>
+<p>To je kao stan bez unutrašnjih vrata. Ko uđe na jedna vrata, može u svaku sobu.</p>
+<p><b>Zašto je to opasno:</b></p>
+<ul>
+<li>Gost ili član posade donese laptop sa zlonamernim programom.</li>
+<li>Program skenira mrežu i nalazi sve što odgovara: štampače, NAS, kamere, servisne računare.</li>
+<li>Uređaji koji se retko ažuriraju (kamere, kontroleri, stari Windows na servisnom računaru) su laka meta.</li>
+<li>Problem iz "zabavnog" dela mreže može da stigne do sistema koji su važni za plovidbu.</li>
+</ul>
+<h2>Rešenje: zone</h2>
+<p>Ideja je jednostavna: <b>grupiši uređaje po tome koliko su važni i koliko im veruješ</b>, i svaku grupu stavi u posebnu zonu.</p>
+<p>Tipična podela na brodu (jahti ili trgovačkom brodu) izgleda otprilike ovako:</p>
+<ul>
+<li><b>Navigacija i most (OT)</b> - radari, ECDIS, sistemi koji su vezani za plovidbu. Najviša zaštita, najmanje veza ka spolja.</li>
+<li><b>Mašina i automatika (OT)</b> - kontroleri, alarmni sistemi, nadzor pogona.</li>
+<li><b>Brodska administracija (IT)</b> - računari kapetana i oficira, poslovni mejl, dokumenta.</li>
+<li><b>Posada</b> - lični telefoni i laptopovi, zabava, društvene mreže.</li>
+<li><b>Gosti</b> - na jahti posebno važna zona, potpuno odvojena od svega ostalog.</li>
+<li><b>Upravljanje</b> - pristup switchevima, firewallu, access pointovima. Samo za administratora.</li>
+<li><b>IoT i kamere</b> - uređaji koji rade jednu stvar i retko dobijaju ažuriranja.</li>
+</ul>
+<p><b>OT</b> (operativna tehnologija) su sistemi koji upravljaju fizičkim stvarima. <b>IT</b> su klasični računari i podaci. Na brodu je ta razlika ključna, jer greška u OT delu nije samo izgubljen fajl.</p>
+<h2>Kako se to tehnički radi</h2>
+<h3>VLAN: odvojene mreže na istim kablovima</h3>
+<p><b>VLAN</b> (virtuelni LAN) omogućava da jedan fizički switch nosi više logički odvojenih mreža. Svaki port ili Wi-Fi mreža (SSID) dobije oznaku VLAN-a.</p>
+<ul>
+<li>Port u kabini - VLAN posade.</li>
+<li>SSID za goste - VLAN gostiju.</li>
+<li>Port na mostu - VLAN navigacije.</li>
+</ul>
+<p>Uređaji u različitim VLAN-ovima <b>ne vide jedni druge direktno</b>. Da bi saobraćaj prešao iz jednog u drugi, mora da prođe kroz ruter ili firewall.</p>
+<h3>Firewall: vrata između zona</h3>
+<p>Ovde ulaze FortiGate, Kerio Control i slični uređaji. Svaki VLAN postane posebna zona ili interfejs, i onda se pišu pravila.</p>
+<p><b>Dobra pravila izgledaju ovako:</b></p>
+<ul>
+<li>Gosti smeju samo ka internetu. Nikako ka drugim zonama.</li>
+<li>Posada sme ka internetu, uz ograničenje protoka da ne pojede vezu.</li>
+<li>Administracija sme ka internetu i ka određenim serverima.</li>
+<li>Navigacija sme samo tamo gde zaista mora (na primer, jedan određeni server za ažuriranje karata), i ništa drugo.</li>
+<li>Zona za upravljanje je dostupna samo sa administratorskog računara.</li>
+</ul>
+<p><b>Pravilo na kraju liste: sve ostalo se odbija i beleži u log.</b></p>
+<h3>Izolacija klijenata na Wi-Fi mreži</h3>
+<p>Čak i unutar iste zone gostiju, telefoni ne moraju da vide jedni druge. Većina access pointova ima opciju <b>izolacije klijenata</b> (client isolation). Za goste i posadu to je skoro uvek dobra ideja.</p>
+<h2>Zašto ovo nije samo "dobra praksa"</h2>
+<p>Pomorska industrija je poslednjih godina formalizovala sajber bezbednost:</p>
+<ul>
+<li><b>IMO</b> je rezolucijom MSC.428(98) tražio da se sajber rizici uključe u sistem upravljanja bezbednošću broda (ISM), najkasnije do prve godišnje provere kompanije posle 1. januara 2021.</li>
+<li><b>IACS</b> je doneo jedinstvene zahteve <b>UR E26</b> (sajber otpornost broda) i <b>UR E27</b> (sajber otpornost sistema i opreme na brodu). Oni se primenjuju na brodove ugovorene za gradnju od 1. jula 2024. Segmentacija mreže i kontrola tokova između zona su njihov važan deo.</li>
+<li><b>BIMCO</b> i drugi industrijski partneri izdaju smernice za sajber bezbednost na brodu, koje takođe preporučuju odvajanje mreža.</li>
+</ul>
+<p>Drugim rečima: kad inspektor ili klasa pita "kako je odvojena navigacija od Wi-Fi-ja za goste", odgovor "sve je u jednoj mreži" više nije prihvatljiv.</p>
+<h2>Česte greške</h2>
+<ul>
+<li><b>"Privremeno" pravilo "any-any".</b> Doda se da nešto proradi, i ostane godinama.</li>
+<li><b>Upravljački interfejsi dostupni svima.</b> Stranica za podešavanje switcha ili firewalla otvorena iz mreže posade.</li>
+<li><b>Servisni pristup bez kontrole.</b> Daljinski pristup za proizvođača opreme koji je uvek uključen. Bolje je da se pali po potrebi i gasi posle posla.</li>
+<li><b>USB kao zadnja vrata.</b> Segmentacija ne pomaže ako neko prenosi fajlove USB-om sa laptopa posade na računar na mostu.</li>
+<li><b>Nema dokumentacije.</b> Niko ne zna koji VLAN je za šta, pa se svaka izmena radi naslepo.</li>
+</ul>
+<h2>Kako da kreneš, korak po korak</h2>
+<p>Ako preuzimaš postojeću ravnu mrežu, ne moraš sve odjednom:</p>
+<ol>
+<li><b>Napravi popis uređaja.</b> Šta je na mreži, gde je, ko ga koristi. Bez toga nema plana.</li>
+<li><b>Odvoji goste prvo.</b> To je najlakši i najveći dobitak.</li>
+<li><b>Odvoji OT (most i mašinu).</b> Prvo posmatraj saobraćaj nekoliko dana da vidiš šta im stvarno treba.</li>
+<li><b>Napiši pravila od najstrožeg.</b> Dozvoli samo ono što si video da je potrebno.</li>
+<li><b>Uključi logovanje odbijenog saobraćaja.</b> Logovi ti pokažu šta si zaboravio, a i šta neko pokušava.</li>
+<li><b>Zapiši sve.</b> Jedna tabela: VLAN, opseg adresa, namena, pravila. Sledeći ETO ili IT tehničar će ti biti zahvalan.</li>
+</ol>
+<h2>Za kraj</h2>
+<p>Segmentacija ne sprečava da se nešto zarazi. Ona <b>ograničava koliko daleko problem može da se proširi</b>. Na brodu, gde je pomoć daleko a veza skupa, to je razlika između "jedan laptop ima virus" i "most ima problem".</p>
+<h2>Izvori</h2>
+<ul>
+<li><a href="https://www.imo.org/en/OurWork/Security/Pages/Cyber-security.aspx">IMO - Maritime cyber risk (MSC.428(98) i smernice MSC-FAL.1/Circ.3)</a></li>
+<li><a href="https://iacs.org.uk/resolutions/unified-requirements/ur-e">IACS - UR E26 i UR E27, Cyber resilience</a></li>
+<li><a href="https://www.bimco.org/about-us-and-our-members/publications/the-guidelines-on-cyber-security-onboard-ships">BIMCO - The Guidelines on Cyber Security Onboard Ships</a></li>
+<li><a href="https://csrc.nist.gov/pubs/sp/800/41/r1/final">NIST SP 800-41 Rev. 1 - Guidelines on Firewalls and Firewall Policy</a></li>
+<li><a href="https://en.wikipedia.org/wiki/VLAN">VLAN - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Network_segmentation">Network segmentation - Wikipedia</a></li>
+</ul>]]></content:encoded>
+</item>
 <item>
 <title>Duboki rad: kako da vratiš fokus u rastrojenom svetu</title>
 <link>https://icemonk79.github.io/citaonica-rss/#citaonica-2026-11-24</link>
