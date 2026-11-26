@@ -1,9 +1,11 @@
 # Pokriveni naslovi i teme (da se ne ponavljaju). Jedan red po objavi.
 # Format: YYYY-MM-DD  tip  naslov  — kratka napomena
-# tip = knjiga | tema
+# tip = knjiga | tema | ekstra
+# Rotacija knjiga/tema gleda poslednji red čiji je tip knjiga ili tema; redovi "ekstra" (na zahtev) se preskaču.
 
 2026-11-22  knjiga  Atomic Habits (James Clear, 2018)  — sažetak ključnih ideja + kako da se primene ako imaš ADHD
 2026-11-23  tema  LEO protiv GEO: zašto Starlink na brodu radi drugačije od klasičnog VSAT-a  — pomorski IT: orbite, kašnjenje, antene, laserske veze, hibrid i failover
 2026-11-24  knjiga  Deep Work (Cal Newport, 2016)  — duboki vs plitki rad, ostatak pažnje, četiri pravila, ritual gašenja + primena uz ADHD
 2026-11-25  tema  Segmentacija brodske mreže: zašto Wi-Fi za goste ne sme da vidi most  — mreže i bezbednost: VLAN, zone, firewall pravila, IMO/IACS E26-E27, česte greške
 2026-11-26  knjiga  Make It Stick (Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel, 2014)  — prisećanje, razmak, mešanje, poželjne teškoće, iluzija znanja + primena uz ADHD i tehnički posao
+2026-11-26  ekstra  Brodske skraćenice i STCW osveženje  — na zahtev, van dnevne rotacije: rečnik brodskih skraćenica + STCW osveženje (požari, aparati)

@@ -5,7 +5,813 @@
 <link>https://icemonk79.github.io/citaonica-rss/</link>
 <description>Dnevni sažeci knjiga i kratka objašnjenja tema, pisani da se lakše čitaju</description>
 <language>sr</language>
-<lastBuildDate>Thu, 26 Nov 2026 06:20:52 +0100</lastBuildDate>
+<lastBuildDate>Thu, 26 Nov 2026 10:01:26 +0100</lastBuildDate>
+<item>
+<title>Brodske skraćenice i STCW osveženje</title>
+<link>https://icemonk79.github.io/citaonica-rss/#citaonica-2026-11-26-brodske-skracenice</link>
+<guid isPermaLink="false">citaonica-2026-11-26-brodske-skracenice</guid>
+<pubDate>Thu, 26 Nov 2026 10:01:26 +0100</pubDate>
+<description><![CDATA[<p>Rečnik oznaka koje čuješ na brodu, plus kratko osveženje iz STCW obuke: klase požara, aparati, zatvoreni prostori i signali uzbune. Čitanje: oko 30 minuta.</p>
+<p>Ovo nije zamena za kompanijski SMS, muster listu, vatrogasni plan ni kurs. Gde se praksa razlikuje po zastavi, klasi ili kompaniji, to je naznačeno. Kad stigneš na brod, merodavni su dokumenti i oznake baš tog broda.</p>
+<h2>Ukratko</h2>
+<ul>
+<li><b>Iste tri slova često znače dve stvari.</b> PMS je i planirano održavanje i sistem upravljanja električnom energijom; SMS je sistem upravljanja bezbednošću; LOA je i dužina broda i odsustvo. Gledaj kontekst.</li>
+<li><b>Konvencije se naslanjaju jedna na drugu.</b> SOLAS, MARPOL, STCW, MLC, ISM i ISPS nisu odvojeni svetovi: sertifikati, vežbe, dnevnici i kontrole postoje zato što ih ti propisi traže.</li>
+<li><b>Kod požara prvo utvrdi šta gori, pa biraj aparat.</b> Evropske klase (EN 2) i američke (NFPA) nisu iste, posebno kod slova C. Na brodu čitaj oznaku aparata i vatrogasni plan. Vodu ne koristi na živoj struji ni na vreloj masnoći.</li>
+</ul>
+<h2>Rečnik skraćenica</h2>
+<p>Ispod je širi pregled, ne „sve što postoji“. Uz svaku oznaku je pun engleski naziv i jedna rečenica šta to u praksi znači na brodu.</p>
+<h3>Konvencije, organizacije i nadzor</h3>
+<ul>
+<li><b>IMO</b> (<i>International Maritime Organization</i>) - agencija UN-a koja donosi glavne pomorske konvencije i kodekse; to je „krov“ za SOLAS, MARPOL, STCW i većinu ostalog na ovom spisku.</li>
+<li><b>SOLAS</b> (<i>International Convention for the Safety of Life at Sea</i>) - osnovna konvencija o bezbednosti broda, posade i putnika: konstrukcija, požar, LSA, radio, brodska oprema i vežbe.</li>
+<li><b>MARPOL</b> (<i>International Convention for the Prevention of Pollution from Ships</i>) - konvencija o sprečavanju zagađenja s brodova, podeljena na anekse (ulje, hemikalije, štetne materije u pakovanju, fekalije, smeće, vazduh i tako dalje).</li>
+<li><b>STCW</b> (<i>International Convention on Standards of Training, Certification and Watchkeeping for Seafarers</i>) - minimalni međunarodni standardi obuke, sertifikata i straže; odavde dolaze BST, CoC i pravila o smenama.</li>
+<li><b>MLC</b> (<i>Maritime Labour Convention, 2006</i>) - „povelja prava pomoraca“: ugovor o radu, plate, smeštaj, hrana, zdravlje, repatrijacija i inspekcija uslova rada.</li>
+<li><b>COLREG</b> ili <b>COLREGS</b> (<i>International Regulations for Preventing Collisions at Sea</i>) - pravila izbegavanja sudara: svetla, oblici, zvukovi i ko kome ustupa put.</li>
+<li><b>ISM</b> (<i>International Safety Management Code</i>) - kodeks iz SOLAS-a koji traži da kompanija i brod imaju sistem upravljanja bezbednošću (SMS), sa procedurama, vežbama i prijavom neusklađenosti.</li>
+<li><b>ISPS</b> (<i>International Ship and Port Facility Security Code</i>) - kodeks o zaštiti broda i luke od namernih pretnji: nivoi zaštite, kontrola pristupa, pretrage i bezbednosni planovi.</li>
+<li><b>LL</b> ili <b>ICLL</b> (<i>International Convention on Load Lines</i>) - konvencija o tovarnoj marki: koliko brod sme da se gaziti, prema zoni i godišnjem dobu.</li>
+<li><b>ILO</b> (<i>International Labour Organization</i>) - organizacija UN-a za rad; MLC je njen ključni pomorski instrument.</li>
+<li><b>IACS</b> (<i>International Association of Classification Societies</i>) - udruženje vodećih klasifikacionih društava; preko njega idu zajednička pravila (uključujući i novija o kibernetičkoj otpornosti).</li>
+<li><b>Class</b> (<i>classification society</i>) - klasifikaciono društvo (DNV, Lloyd's Register, ABS, BV, ClassNK, RINA i druga) koje nadzire gradnju i stanje trupa i mašina i izdaje sertifikate klase.</li>
+<li><b>RO</b> (<i>Recognized Organization</i>) - organizacija (često klasa) koju je zastava ovlastila da u njeno ime radi preglede i izdaje pojedine sertifikate.</li>
+<li><b>RSO</b> (<i>Recognized Security Organization</i>) - organizacija koju zastava može da ovlasti za poslove iz ISPS-a, na primer izradu ili pregled bezbednosne procene i plana.</li>
+<li><b>PSC</b> (<i>Port State Control</i>) - inspekcija broda od strane države luke; proverava da li brod, posada i dokumenta stvarno odgovaraju konvencijama, ne samo „na papiru“.</li>
+<li><b>MoU</b> (<i>Memorandum of Understanding</i>) - regionalni sporazum o PSC-u (Pariski, Tokijski i drugi); režim i „bela/siva/crna lista“ zavise od regiona u kom te zaustave.</li>
+<li><b>Flag State</b> ili <b>FSI</b> (<i>flag State / flag State implementation or inspection</i>) - država zastave je prva odgovorna za brod; njene inspekcije i tumačenja propisa su merodavni za tvoje sertifikate i opremu.</li>
+<li><b>IAMSAR</b> (<i>International Aeronautical and Maritime Search and Rescue Manual</i>) - zajednički priručnik IMO-a i ICAO-a kako se vodi potraga i spasavanje s mora i iz vazduha.</li>
+<li><b>BWM</b> (<i>International Convention for the Control and Management of Ships' Ballast Water and Sediments</i>) - konvencija o balastnim vodama; na brodu se vidi kroz BWMP, dnevnik i sistem za tretman (BWTS).</li>
+<li><b>Tonnage</b> (<i>International Convention on Tonnage Measurement of Ships</i>) - način merenja GT i NT; od tih brojki vise takse, razredi sertifikata i ponekad sastav posade.</li>
+<li><b>USCG</b> (<i>United States Coast Guard</i>) - obalska straža SAD; u američkim vodama ima jak PSC i sopstvena pravila, posebno za tankere, putničke brodove i zaštitu.</li>
+<li><b>MCA</b> (<i>Maritime and Coastguard Agency</i>) - britanska pomorska uprava; važna za Red Ensign zastave, ENG1 lekarski pregled i jahtne kodekse.</li>
+</ul>
+<h3>Bezbednost, zaštita i sistemi upravljanja</h3>
+<ul>
+<li><b>SMS</b> (<i>Safety Management System</i>) - sistem upravljanja bezbednošću po ISM-u: priručnici, procedure, dozvole za rad, vežbe, prijave i unutrašnje provere. (Ponekad ista skraćenica označava i softver, ali na brodu prvo pomisli na ISM.)</li>
+<li><b>DPA</b> (<i>Designated Person Ashore</i>) - imenovana osoba na kopnu; tvoja direktna veza između broda i najvišeg rukovodstva kompanije kad je u pitanju bezbednost i zagađenje.</li>
+<li><b>CSO</b> (<i>Company Security Officer</i>) - osoba u kompaniji odgovorna za ISPS na svim brodovima flote; radi sa SSO-om i lukama.</li>
+<li><b>SSO</b> (<i>Ship Security Officer</i>) - oficir zaštite na brodu (često palubni oficir); vodi SSP, vežbe, kontrolu pristupa i komunikaciju s PFSO-om.</li>
+<li><b>PFSO</b> (<i>Port Facility Security Officer</i>) - oficir zaštite lučkog objekta; s njim se usklađuje nivo zaštite i, po potrebi, potpisuje DoS.</li>
+<li><b>SSP</b> (<i>Ship Security Plan</i>) - poverljivi plan zaštite broda: nivoi 1-3, ograničene zone, pretrage, ključevi i postupci u pretnji.</li>
+<li><b>SSA</b> (<i>Ship Security Assessment</i>) - procena ugroženosti i slabosti broda; osnova za izradu ili izmenu SSP-a.</li>
+<li><b>DoS</b> (<i>Declaration of Security</i>) - izjava o zaštiti između broda i luke (ili dva broda) kad nivoi ili rizik to zahtevaju.</li>
+<li><b>DOC</b> (<i>Document of Compliance</i>) - ISM dokument kompanije za određeni tip broda; bez važećeg DOC-a brod ne može da dobije ili zadrži SMC.</li>
+<li><b>SMC</b> (<i>Safety Management Certificate</i>) - ISM sertifikat samog broda, izdaje se posle provere da SMS stvarno radi na tom brodu.</li>
+<li><b>ISSC</b> (<i>International Ship Security Certificate</i>) - ISPS sertifikat broda; potvrđuje da su plan, oprema i vežbe zaštite na mestu.</li>
+<li><b>CSR</b> (<i>Continuous Synopsis Record</i>) - hronološki zapis o istoriji broda: ime, zastava, vlasnik, kompanija, klasa i izmene.</li>
+<li><b>NCR</b> (<i>non-conformity report</i>) - prijava neusklađenosti sa SMS-om ili standardom; može biti „obična“ ili veća (major). Zatvara se merama i proverom, ne fajlovanjem u fioku.</li>
+<li><b>DMLC</b> (<i>Declaration of Maritime Labour Compliance</i>) - izjava o usklađenosti s MLC-om: deo I izdaje zastava, deo II popunjava kompanija. Uz nju ide i MLC sertifikat.</li>
+<li><b>PMS</b> (<i>Planned Maintenance System</i>) - sistem planiranog održavanja: radovi, intervali, rezervni delovi i zapisnici, često povezan s klasom i ISM-om. (Drugo značenje, power management, je niže, u delu o mostu i mašini.)</li>
+<li><b>CMS</b> (<i>Continuous Machinery Survey</i> ili <i>condition monitoring system</i>) - u klasi: kontinuirani pregled mašina umesto svega odjednom; u tehnici ponekad i sistem za praćenje stanja (vibracije, temperature).</li>
+<li><b>JHA</b> / <b>JSA</b> (<i>job hazard / job safety analysis</i>) - razlaganje posla na korake i opasnosti pre početka rada.</li>
+<li><b>RA</b> (<i>risk assessment</i>) - procena rizika; često preduslov za dozvolu za rad i za svaki neuobičajen posao.</li>
+<li><b>PTW</b> (<i>permit to work</i>) - dozvola za rad (vrući rad, zatvoreni prostor, rad na visini, rad na naponu i slično). Važi samo uz uslove, vreme i potpise navedene na njoj.</li>
+<li><b>LOTO</b> (<i>lock out / tag out</i>) - fizička blokada i označavanje izvora energije (ventil, prekidač, starter) da niko ne pusti pogon dok se radi.</li>
+<li><b>TBT</b> (<i>toolbox talk</i>) - kratki razgovor ekipe neposredno pred posao: šta radimo, šta može poći po zlu, ko gde stoji.</li>
+<li><b>MSDS</b> ili <b>SDS</b> (<i>material / safety data sheet</i>) - bezbednosni list hemikalije: opasnosti, zaštita, prva pomoć i postupanje pri izlivanju. Čitaj ga pre nego što otvoriš burad.</li>
+<li><b>PPE</b> (<i>personal protective equipment</i>) - lična zaštitna oprema: kaciga, naočari, rukavice, zaštitne cipele, kombinezon, štitnici za sluh. Ne zamenjuje uklanjanje opasnosti.</li>
+<li><b>SOPEP</b> (<i>Shipboard Oil Pollution Emergency Plan</i>) - brodski plan za izlivanje ulja: koga zvati, gde je oprema, šta prvo raditi.</li>
+<li><b>SMPEP</b> (<i>Shipboard Marine Pollution Emergency Plan</i>) - sličan plan za brodove koji prevoze štetne tečne materije; ponekad je spojen sa SOPEP-om.</li>
+<li><b>BWMP</b> (<i>Ballast Water Management Plan</i>) - plan upravljanja balastom: kad se menja, tretira, beleži i šta se ne sme.</li>
+<li><b>GMP</b> (<i>Garbage Management Plan</i>) - plan upravljanja smećem; uz njega ide GRB i plakati o tome šta sme da se baci i gde.</li>
+<li><b>ORB</b> (<i>Oil Record Book</i>) - knjiga evidencije ulja (deo I za mašinu, deo II za teret na tankeru). Upisuj tačno; PSC ovo čita pedantno.</li>
+<li><b>GRB</b> (<i>Garbage Record Book</i>) - knjiga evidencije smeća. I ovde su netačni unosi čest razlog zamerki.</li>
+<li><b>IOPP</b> (<i>International Oil Pollution Prevention Certificate</i>) - MARPOL Aneks I sertifikat; uz njega idu dopune o tankovima, OWS-u i opremi.</li>
+<li><b>IAPP</b> (<i>International Air Pollution Prevention Certificate</i>) - MARPOL Aneks VI sertifikat o sprečavanju zagađenja vazduha (NOx, SOx, ozonske materije).</li>
+<li><b>IEE</b> / <b>IEEC</b> (<i>International Energy Efficiency Certificate</i>) - sertifikat energetske efikasnosti, vezan za EEDI/EEXI i SEEMP.</li>
+<li><b>EEXI</b> (<i>Energy Efficiency Existing Ship Index</i>) - tehnički indeks efikasnosti postojećeg broda; može da znači ograničenje snage motora (shaft/engine power limitation).</li>
+<li><b>CII</b> (<i>Carbon Intensity Indicator</i>) - godišnji pokazatelj ugljeničnog intenziteta; ocena (A-E) utiče na to koliko kompanija mora da popravi rad broda.</li>
+<li><b>SEEMP</b> (<i>Ship Energy Efficiency Management Plan</i>) - plan efikasnosti: deo o merama na brodu, plus delovi vezani za CII i izveštavanje.</li>
+<li><b>ECA</b> (<i>Emission Control Area</i>) - područje kontrole emisija (SOx, NOx ili oboje); ulazak menja gorivo, postavke motora ili rad skrubera.</li>
+<li><b>SECA</b> (<i>SOx Emission Control Area</i>) - ECA usmerena na sumpor; danas se često govori pod opštim imenom ECA.</li>
+<li><b>BDN</b> (<i>bunker delivery note</i>) - dostavnica bunkera: količina, gustina, sadržaj sumpora. Čuvaj je; treba i za ORB i za inspekciju.</li>
+<li><b>MRV</b> (<i>monitoring, reporting and verification</i>) - u EU (i Ujedinjenom Kraljevstvu) sistem merenja i prijave emisija; nije isto što i IMO DCS, ali se podaci delom preklapaju.</li>
+<li><b>DCS</b> (<i>IMO Data Collection System</i>) - IMO sistem prikupljanja podataka o potrošnji goriva, osnov za CII.</li>
+<li><b>IHM</b> (<i>Inventory of Hazardous Materials</i>) - popis opasnih materijala na brodu, važan za reciklažu i sve češće za inspekcije.</li>
+</ul>
+<h3>Navigacija, most i GMDSS</h3>
+<ul>
+<li><b>ECDIS</b> (<i>Electronic Chart Display and Information System</i>) - sistem elektronskih karata koji, uz odgovarajuće karte, obuku i rezervu, može da zameni papirne karte.</li>
+<li><b>ENC</b> (<i>Electronic Navigational Chart</i>) - vektorska zvanična karta za ECDIS (S-57/S-63, prelaz na S-101).</li>
+<li><b>RNC</b> (<i>Raster Navigational Chart</i>) - rasterska slika papirne karte; koristi se u RCDS režimu, s dodatnim ograničenjima u odnosu na ENC.</li>
+<li><b>ARPA</b> (<i>Automatic Radar Plotting Aid</i>) - radarska funkcija koja prati ciljeve i računa CPA/TCPA; ne oslobađa te od gledanja i procene.</li>
+<li><b>AIS</b> (<i>Automatic Identification System</i>) - radio-sistem koji šalje i prima identitet, položaj i kretanje brodova. Koristan, ali nije radar i može da se isključi, zakasni ili lažira.</li>
+<li><b>VDR</b> (<i>voyage data recorder</i>) - „crna kutija“ broda: most, radio, komande i alarmi. Posle havarije se čuva i predaje istrazi.</li>
+<li><b>S-VDR</b> (<i>simplified VDR</i>) - pojednostavljeni zapisnik, često na starijim teretnim brodovima, s užim skupom podataka.</li>
+<li><b>GPS</b> / <b>GNSS</b> (<i>Global Positioning System / Global Navigation Satellite System</i>) - satelitska navigacija; GNSS je opšti pojam (GPS, Galileo, GLONASS, BeiDou). Ne veruj jednom prikazu bez provere.</li>
+<li><b>DGPS</b> (<i>Differential GPS</i>) - korekcija GPS-a s kopnenih ili satelitskih stanica, radi manje greške položaja.</li>
+<li><b>BNWAS</b> (<i>Bridge Navigational Watch Alarm System</i>) - alarm da je časnik na mostu budan i za mostom; reset u predviđenom intervalu, inače zove rezervu pa alarm kroz brod.</li>
+<li><b>NAVTEX</b> (<i>Navigational Telex</i>) - automatski prijem priobalnih navigacijskih i meteoroloških upozorenja na 518 kHz (i lokalnim jezicima na 490 kHz).</li>
+<li><b>EPIRB</b> (<i>Emergency Position Indicating Radio Beacon</i>) - bova koja preko COSPAS-SARSAT sistema šalje poziv u pomoć i položaj. Proveravaj rok, stisak i hidrostatičko otpuštanje.</li>
+<li><b>SART</b> (<i>Search and Rescue Transponder</i>) - radarski transponder koji na X-band radaru spasioca crta niz tačaka; uključuje se u splavu ili čamcu.</li>
+<li><b>AIS-SART</b> (<i>AIS search and rescue transmitter</i>) - isti cilj preko AIS-a: na ekranima se vidi kao cilj u nevolji, ne kao klasični SART odjek.</li>
+<li><b>GMDSS</b> (<i>Global Maritime Distress and Safety System</i>) - globalni sistem za nevolju i bezbednost: DSC, radio, satelit, NAVTEX, EPIRB, SART i čuvanje slušanja.</li>
+<li><b>A1, A2, A3, A4</b> (<i>GMDSS sea areas</i>) - područja pokrivenosti: A1 je VHF DSC, A2 je MF DSC izvan A1, A3 je pokrivenost priznatog mobilnog satelita (ranije praktično Inmarsat, danas i drugi, npr. Iridium) između otprilike 70°S i 70°N, A4 su pretežno polarne oblasti s HF. Oprema i radio-sertifikat moraju da odgovaraju području plovidbe.</li>
+<li><b>DSC</b> (<i>Digital Selective Calling</i>) - digitalni poziv na VHF/MF/HF; kanal 70 na VHF-u je za DSC, ne za ćaskanje.</li>
+<li><b>VHF</b> / <b>MF</b> / <b>HF</b> (<i>very / medium / high frequency</i>) - opsezi radio-veze: VHF za blizinu, MF za srednje, HF za daleke oblasti.</li>
+<li><b>MMSI</b> (<i>Maritime Mobile Service Identity</i>) - devetocifreni radio-identitet broda, unet u DSC, AIS i srodne uređaje. Mora da se poklapa s dokumentima.</li>
+<li><b>LRIT</b> (<i>Long-Range Identification and Tracking</i>) - sistem dalekog praćenja položaja koji brod šalje zastavi, a po pravilima i drugim državama, ne javni AIS.</li>
+<li><b>SSAS</b> (<i>Ship Security Alert System</i>) - tihi alarm zaštite (npr. piratstvo ili otmica); šalje upozorenje na kopno bez brodske sirene.</li>
+<li><b>Inmarsat</b> - porodica priznatih satelitskih službi (C, Fleet, Fleet Broadband i novije); i dalje česta osnova za A3, ali više nije jedina.</li>
+<li><b>RCC</b> / <b>MRCC</b> (<i>rescue / maritime rescue coordination centre</i>) - centar koji vodi akciju spasavanja. Njega zoveš u nevolji, i on zove tebe.</li>
+<li><b>ETA</b> / <b>ETD</b> / <b>ETB</b> (<i>estimated time of arrival / departure / berthing</i>) - procenjeno vreme dolaska, odlaska i privezivanja. Menjaj ih čim znaš tačnije.</li>
+<li><b>CPA</b> / <b>TCPA</b> (<i>closest point of approach / time to CPA</i>) - najmanje rastojanje do cilja i vreme do tog trenutka; osnovna merila za rizik sudara.</li>
+<li><b>OOW</b> (<i>officer of the watch</i>) - časnik na straži (na mostu, osim ako piše da je u mašini). Odgovoran je za bezbednu plovidbu u svojoj smeni.</li>
+<li><b>BRM</b> / <b>BTM</b> (<i>bridge resource / team management</i>) - rad mosta kao tima: komunikacija, podela poslova, izazivanje odluka i korišćenje svih raspoloživih sredstava.</li>
+<li><b>VTS</b> (<i>vessel traffic services</i>) - lučka ili obalska služba upravljanja saobraćajem; slušaj, javi se po pravilima i prati instrukcije.</li>
+<li><b>TSS</b> (<i>traffic separation scheme</i>) - shema razdvajanja saobraćaja iz COLREG pravila 10.</li>
+<li><b>IBS</b> / <b>INS</b> (<i>integrated bridge / navigation system</i>) - integrisani most ili navigacioni sistem; pogodnost, ali i zajednička tačka kvara ako ne umeš da radiš „ručno“.</li>
+</ul>
+<h3>Mašinska prostorija i pogon</h3>
+<ul>
+<li><b>ME</b> (<i>main engine</i>) - glavni motor.</li>
+<li><b>AE</b> / <b>DG</b> (<i>auxiliary engine / diesel generator</i>) - pomoćni motor, odnosno dizel-agregat za struju.</li>
+<li><b>EDG</b> (<i>emergency diesel generator</i>) - rezervni agregat; mora da krene i preuzme bitna trošila pri nestanku glavne mreže.</li>
+<li><b>ECR</b> (<i>engine control room</i>) - kontrolna prostorija mašine.</li>
+<li><b>MCR</b> (<i>maximum continuous rating</i> ili ponekad <i>machinery control room</i>) - najčešće maksimalna trajna snaga motora; u nekim kompanijama ista slova znače i kontrolnu prostoriju mašine, pa gledaj kontekst.</li>
+<li><b>RPM</b> (<i>revolutions per minute</i>) - broj obrtaja u minuti.</li>
+<li><b>UMS</b> (<i>unattended machinery space</i>) - mašinska prostorija predviđena za rad bez stalne straže; alarmi moraju da stignu do časnika na dužnosti.</li>
+<li><b>CPP</b> (<i>controllable pitch propeller</i>) - propeler s promenljivim korakom; „kretanje“ i „obrtaji“ nisu ista stvar kao kod fiksnog koraka.</li>
+<li><b>DP</b> (<i>dynamic positioning</i>) - dinamičko pozicioniranje: brod stoji ili prati tačku pomoću potisnika i referentnih sistema, uz razrede DP-1/2/3.</li>
+<li><b>PMS</b> (<i>power management system</i>) - automatika koja deli teret među agregatima, sprečava blackout i vodi priključivanje na sabirnice. Nije isto što i planned maintenance.</li>
+<li><b>MSB</b> / <b>ESB</b> (<i>main / emergency switchboard</i>) - glavna i rezervna razvodna tabla.</li>
+<li><b>OWS</b> (<i>oily water separator</i>) - separator zauljene vode iz bilja. Ispuštanje samo uz uslove MARPOL-a, ispravan 15-ppm alarm i pošten upis u ORB.</li>
+<li><b>ODME</b> (<i>oil discharge monitoring equipment</i>) - sistem praćenja ispuštanja zauljenog vodenog balasta/pranja na tankerima.</li>
+<li><b>STP</b> (<i>sewage treatment plant</i>) - uređaj za tretman fekalija; Aneks IV određuje šta sme u more i gde.</li>
+<li><b>FO</b> / <b>DO</b> (<i>fuel oil / diesel oil</i>) - opšti nazivi za gorivo, odnosno dizel.</li>
+<li><b>HFO</b> (<i>heavy fuel oil</i>) - teško gorivo; zahteva grejanje, prečišćavanje i pažnju pri promeni.</li>
+<li><b>MGO</b> (<i>marine gas oil</i>) - destilatno gorivo, često za pomoćne motore, ulazak u ECA ili kao rezervno.</li>
+<li><b>VLSFO</b> / <b>ULSFO</b> (<i>very / ultra low sulphur fuel oil</i>) - goriva s niskim, odnosno veoma niskim sumporom.</li>
+<li><b>LSMGO</b> (<i>low sulphur marine gas oil</i>) - niskosumporni MGO, čest izbor za ECA.</li>
+<li><b>LO</b> (<i>lubricating oil</i>) - ulje za podmazivanje; prati popunu, vodu u ulju i analize.</li>
+<li><b>PV ventil</b> (<i>pressure/vacuum valve</i>) - ventil koji čuva tank od prevelikog pritiska ili vakuuma, posebno na tankerima i u IGS-u.</li>
+<li><b>IG</b> / <b>IGS</b> (<i>inert gas / inert gas system</i>) - inertni gas kojim se smanjuje kiseonik u tankovima da smeša ne bude zapaljiva.</li>
+<li><b>FWG</b> (<i>fresh water generator</i>) - uređaj za proizvodnju pijaće ili tehničke slatke vode (isparivač ili reverzna osmoza).</li>
+<li><b>UTM</b> (<i>ultrasonic thickness measurement</i>) - merenje debljine lima ultrazvukom, obavezno u pregledima klase trupa.</li>
+<li><b>BWTS</b> (<i>ballast water treatment system</i>) - uređaj za tretman balasta (UV, elektrohlorisanje ili drugi postupak).</li>
+<li><b>EGCS</b> (<i>exhaust gas cleaning system</i>, „skruber“) - pere izduv da bi se ispunila granica sumpora dok se loži gorivo s višim sadržajem S.</li>
+<li><b>SCR</b> / <b>EGR</b> (<i>selective catalytic reduction / exhaust gas recirculation</i>) - tehnike za smanjenje NOx (katalizator s ureom, odnosno recirkulacija izduva).</li>
+<li><b>SBE</b> / <b>FWE</b> (<i>stand by engines / finished with engines</i>) - most javlja mašini da motore stavi u pripravnost, odnosno da je s pogonom za tu operaciju gotovo.</li>
+</ul>
+<h3>Teret, brodski podaci i komercijala</h3>
+<ul>
+<li><b>B/L</b> (<i>bill of lading</i>) - tovarni list: dokaz o prijemu tereta, ugovor o prevozu i (često) isprava s kojom primalac preuzima robu.</li>
+<li><b>NOR</b> (<i>notice of readiness</i>) - obaveštenje da je brod spreman za ukrcaj ili iskrcaj, bitno za laytime i zastoj.</li>
+<li><b>SOF</b> (<i>statement of facts</i>) - hronologija lučkih operacija; osnova za proračun vremena i spora oko demurrage-a.</li>
+<li><b>LOI</b> (<i>letter of indemnity</i>) - pismo obeštećenja (npr. isporuka bez originalnog B/L-a). Pravni rizik je veliki; ne potpisuje se „usput“.</li>
+<li><b>C/P</b> (<i>charter party</i>) - ugovor o najmu broda (voyage, time, bareboat). Tu pišu raspodela troškova, NOR, laycan i odgovornosti.</li>
+<li><b>LAYCAN</b> (<i>laydays / cancelling date</i>) - prozor u kom brod treba da stigne; posle canceling datuma naručilac može da otkaže.</li>
+<li><b>DWT</b> (<i>deadweight tonnage</i>) - nosivost: koliko brod sme da ponese (teret, gorivo, voda, zalihe) do tovarne marke.</li>
+<li><b>GT</b> / <b>NT</b> (<i>gross / net tonnage</i>) - zapreminske mere broda, ne „tone težine“. GT je ukupna zapremina, NT komercijalno korisna.</li>
+<li><b>LOA</b> (<i>length overall</i>) - najveća dužina broda, bitna za gazicu, vez i kanale. (U kadrovima LOA može da znači i <i>leave of absence</i>.)</li>
+<li><b>TPC</b> (<i>tonnes per centimetre immersion</i>) - koliko tona menja gaz za jedan centimetar; brza računica pri ukrcaju.</li>
+<li><b>DG</b> (<i>dangerous goods</i>) - opasan teret; na brodu se tretira po IMDG, IMSBC, IBC ili IGC, zavisno od oblika i broda.</li>
+<li><b>IMDG</b> (<i>International Maritime Dangerous Goods Code</i>) - kodeks za opasan teret u pakovanju: klase, odvajanje, deklaracije i požarni postupci.</li>
+<li><b>IMSBC</b> (<i>International Maritime Solid Bulk Cargoes Code</i>) - kodeks za čvrste rasute terete, uključujući one koji mogu da se pretvore u tečnost (liquefaction).</li>
+<li><b>IBC</b> (<i>International Code for the Construction and Equipment of Ships Carrying Dangerous Chemicals in Bulk</i>) - kodeks za hemijske tankere.</li>
+<li><b>IGC</b> (<i>International Code for the Construction and Equipment of Ships Carrying Liquefied Gases in Bulk</i>) - kodeks za gasne tankere.</li>
+<li><b>IGF</b> (<i>International Code of Safety for Ships Using Gases or Other Low-flashpoint Fuels</i>) - kodeks za brodove koji koriste gas ili drugo gorivo niske tačke paljenja (npr. LNG kao bunkera).</li>
+<li><b>MFAG</b> (<i>Medical First Aid Guide</i>) - medicinski vodič uz IMDG, za izloženost opasnim materijama.</li>
+<li><b>EmS</b> (<i>Emergency Response Procedures for Ships Carrying Dangerous Goods</i>) - vatrogasne i razlivene procedure uz IMDG.</li>
+<li><b>VGM</b> (<i>verified gross mass</i>) - proverena bruto masa kontejnera; bez nje (gde se traži) kontejner se ne ukrcava.</li>
+<li><b>COW</b> (<i>crude oil washing</i>) - pranje tankova sirovom naftom na tankerima, po strogoj proceduri i uz IGS.</li>
+<li><b>ROB</b> (<i>remaining on board</i>) - šta je ostalo u tankovima (teret ili bunkera) posle operacije.</li>
+<li><b>ISGOTT</b> (<i>International Safety Guide for Oil Tankers and Terminals</i>) - standardni vodič za bezbedan rad tankera i terminala.</li>
+<li><b>OCIMF</b> (<i>Oil Companies International Marine Forum</i>) - udruženje naftnih kompanija; iza njega su ISGOTT, SIRE i TMSA.</li>
+<li><b>SIRE</b> (<i>Ship Inspection Report Programme</i>) - inspekcijski program OCIMF-a za tankere (sada i SIRE 2.0).</li>
+</ul>
+<h3>Posada, sertifikati i jahte</h3>
+<ul>
+<li><b>Master</b> - zapovednik; pravno i operativno odgovoran za brod, posadu, teret i odluke u nuždi.</li>
+<li><b>C/O</b> (<i>chief officer / chief mate</i>) - stariji oficir palube; teret, stabilitet, palubna posada, često i vatrogasni i bezbednosni posao.</li>
+<li><b>2/O</b> / <b>3/O</b> (<i>second / third officer</i>) - drugi i treći časnik palube; tipično navigacija, GMDSS, LSA/FFE evidencija, straža, zavisno od broda.</li>
+<li><b>C/E</b> (<i>chief engineer</i>) - upravnik mašine; odgovoran za pogon, bunku, tehničku bezbednost i mašinsku posadu.</li>
+<li><b>2/E</b> / <b>3/E</b> / <b>4/E</b> (<i>second / third / fourth engineer</i>) - časnička linija u mašini; podela (ME, AE, kotao, pomoćni sistemi) zavisi od broda.</li>
+<li><b>ETO</b> (<i>electro-technical officer</i>) - elektročasnik: razvod, automatika, navigacioni i komunikacioni sistemi, često i IT.</li>
+<li><b>AB</b> (<i>able seafarer deck</i>) - okretni mornar palube, s visim palubnim kompetencijama od OS-a.</li>
+<li><b>OS</b> (<i>ordinary seaman / deck rating</i>) - mornar palube na nižem stepenu, u obuci i opštim poslovima.</li>
+<li><b>Bosun</b> (<i>boatswain</i>) - brodski poslovođa palube, vodi dnevni rad AB/OS ekipe pod C/O-om.</li>
+<li><b>EOW</b> (<i>engineer of the watch</i>) - časnik na straži u mašini.</li>
+<li><b>CoC</b> (<i>certificate of competency</i>) - diploma / sertifikat osposobljenosti (zapovednik, časnik, upravnik mašine i tako dalje).</li>
+<li><b>CoE</b> (<i>certificate of endorsement</i> ili u UK često <i>certificate of equivalent competency</i>) - potvrda zastave da priznaje tuđu CoC, ili nacionalno priznanje jednakosti.</li>
+<li><b>GOC</b> (<i>General Operator's Certificate</i>) - GMDSS radio-sertifikat za sve oblasti, uključujući A3 i A4 (uz odgovarajuću opremu).</li>
+<li><b>ROC</b> (<i>Restricted Operator's Certificate</i>) - GMDSS sertifikat ograničen obično na područje A1 (VHF DSC).</li>
+<li><b>SRC</b> (<i>Short Range Certificate</i>) - kratki VHF/radio kurs, čest na jahtama i u rekreacionoj plovidbi; nije automatski isti dokument kao STCW ROC, proveri šta ti zastava i brod traže.</li>
+<li><b>BST</b> (<i>Basic Safety Training</i>, STCW A-VI/1) - osnovna bezbednosna obuka, sastavljena od PST, FPFF, EFA i PSSR.</li>
+<li><b>PST</b> (<i>Personal Survival Techniques</i>) - preživljavanje na moru: prsluk, splav, napuštanje broda.</li>
+<li><b>FPFF</b> (<i>Fire Prevention and Fire Fighting</i>) - osnovna obuka iz sprečavanja i gašenja požara, uključujući praktičan rad s aparatom i BA u vežbaoni.</li>
+<li><b>EFA</b> (<i>Elementary First Aid</i>) - osnovna prva pomoć.</li>
+<li><b>PSSR</b> (<i>Personal Safety and Social Responsibilities</i>) - lična bezbednost i društvene odgovornosti: SMS, alarmi, zlostavljanje, droga i alkohol, radne dozvole.</li>
+<li><b>MFA</b> (<i>Medical First Aid</i>) - proširena prva pomoć, iznad EFA, za časnika zaduženog za medicinski odgovor na brodu.</li>
+<li><b>PSCRB</b> (<i>Proficiency in Survival Craft and Rescue Boats, other than fast rescue boats</i>) - osposobljenost za čamce za spasavanje i spasilačke čamce (osim brzih).</li>
+<li><b>AFF</b> (<i>Advanced Fire Fighting</i>) - viša vatrogasna obuka, obavezna za časničke dužnosti vođenja gašenja.</li>
+<li><b>SAT</b> (<i>security awareness training</i>, STCW A-VI/6) - obuka svesti o zaštiti, za svu posadu.</li>
+<li><b>SDSD</b> / <b>PDSD</b> (<i>(proficiency in) designated security duties</i>) - osposobljenost za određene dužnosti zaštite, za one koji rade ISPS poslove ispod SSO-a.</li>
+<li><b>SSO course</b> - poseban kurs za brodskog oficira zaštite (STCW A-VI/5).</li>
+<li><b>ENG1</b> - britanski (MCA) lekarski sertifikat sposobnosti za pomorce; druge zastave imaju sopstvene obrasce, ali ENG1 je široko prepoznat.</li>
+<li><b>ML5</b> - uži britanski lekarski obrazac, ponekad viđen u jahtnom i priobalnom radu; nije zamena za ENG1 tamo gde se ENG1 traži.</li>
+<li><b>Seaman's book</b> (takođe <i>CDC, continuous discharge certificate</i>, ili nacionalna pomorska knjižica) - isprava o službi i ukrcajima; oblik zavisi od države.</li>
+<li><b>SEA</b> (<i>seafarer's employment agreement</i>) - ugovor o radu pomorca po MLC-u; treba da ga imaš na brodu i da znaš šta piše o plati, repatrijaciji i otkazu.</li>
+<li><b>TOR</b> - u praksi različito: često predaja dužnosti (<i>turnover report</i>) ili okvir zadatka (<i>terms of reference</i>). Ne pretpostavljaj značenje, pitaj u kom smislu se koristi.</li>
+<li><b>PYA</b> (<i>Professional Yachting Association</i>) - strukovno udruženje profesionalaca na jahtama; prati karijerne putanje i evidencije plovidbe.</li>
+<li><b>LY3</b> (<i>MCA Large Yacht Code</i>) - raniji britanski kodeks za velike jahte; još se pominje u dokumentima i prelaznim aranžmanima.</li>
+<li><b>REG Yacht Code</b> (<i>Red Ensign Group Yacht Code</i>) - važeći kodeks Crvene zastave za velike i putničke jahte (deo A i deo B), naslednik LY3.</li>
+<li><b>OOW (Yacht)</b> - jahtni sertifikat časnika straže, nije automatski isti kao trgovački OOW; ograničenja pišu na ispravi.</li>
+<li><b>Y4</b> / <b>Y3</b> - MCA inženjerski jahtni razredi (Y4 uži, Y3 viši); iznad njih idu Y2 i Y1, zavisno od snage i dužnosti.</li>
+<li><b>EDH</b> (<i>Efficient Deck Hand</i>) - palubni kurs/ispit koji se često traži na jahtama i na britanskom palubnom putu pre viših razreda.</li>
+<li><b>AEC</b> (<i>Approved Engine Course</i>) - uvodni odobreni mašinski kurs, čest prvi korak ka jahtnim inženjerskim svedočanstvima.</li>
+<li><b>HELM</b> (<i>Human Element, Leadership and Management</i>) - kurs o ljudskom faktoru i vođenju, u jahtnoj i trgovačkoj varijanti; povezan s BRM/ERM zahtevima.</li>
+</ul>
+<h3>Vanredne situacije i oprema</h3>
+<ul>
+<li><b>Muster list</b> / <b>station bill</b> - spisak uzbune: ko gde ide, koji je tvoj alarmni broj, ko nosi šta i ko je zamenik. Nauči ga prvog dana.</li>
+<li><b>LSA</b> (<i>life-saving appliances</i>) - sredstva za spasavanje: prsluci, čamci, splavovi, MOS, rakete, odela.</li>
+<li><b>FFA</b> / <b>FFE</b> (<i>fire-fighting appliances / equipment</i>) - vatrogasna oprema: aparati, hidranti, BA, fiksni sistemi, vrata, klapne.</li>
+<li><b>LSA Code</b> / <b>FSS Code</b> (<i>Life-Saving Appliances / Fire Safety Systems Code</i>) - IMO kodeksi koji detaljno propisuju LSA i fiksne vatrogasne sisteme.</li>
+<li><b>BA</b> / <b>SCBA</b> (<i>breathing apparatus / self-contained BA</i>) - izolacioni aparat za disanje za gašenje i spašavanje; nije isto što i EEBD.</li>
+<li><b>EEBD</b> (<i>emergency escape breathing device</i>) - aparat za beg iz zadimljenog prostora, obično 10-15 minuta. Samo za izlazak, ne za gašenje ni za ulazak u akciju.</li>
+<li><b>FRC</b> (<i>fast rescue craft / boat</i>) - brzi spasilački čamac, čest na putničkim brodovima i pri evakuaciji iz vode.</li>
+<li><b>MES</b> (<i>marine evacuation system</i>) - evakuacioni sistem (tobogan ili čaure) s palube do splavova, uglavnom na putničkim brodovima.</li>
+<li><b>HRU</b> (<i>hydrostatic release unit</i>) - hidrostatički otpuštač koji sam oslobađa splav (i često EPIRB) na određenoj dubini, tipično oko 2-4 metra, ako brod tone pre ručnog spuštanja.</li>
+<li><b>TPA</b> (<i>thermal protective aid</i>) - termalna zaštitna vreća u splavu, za pothlađivanje kad nema immersion suit-a.</li>
+<li><b>Immersion suit</b> - odelo za preživljavanje u hladnoj vodi; vežbaj zatvaranje i zatapanje u njemu dok si na suvom.</li>
+<li><b>PA</b> / <b>GA</b> (<i>public address / general alarm</i>) - razglas i opšti alarm. Opšti alarm i zvižduk imaju dogovorene šablone, ali uvek proveri i uputstvo na svom brodu.</li>
+<li><b>MOB</b> (<i>man overboard</i>) - čovek u moru. Uobičajeni zvučni znak je tri duga (signal „Oscar“), uz Williamson/Anderson ili drugi okret, bačeni prsluk/bovu i stalno pokazivanje osobe. Ponovo: proveri proceduru broda.</li>
+<li><b>CO2</b> (fiksni sistem) - totalno preplavljivanje prostorije ugljen-dioksidom, često u mašini, pumpovima i skladištu boja. Ljudi prvo napolje, brojanje, alarm i zadrška pre ispusta.</li>
+<li><b>FM-200</b> / <b>Novec 1230</b> - „čisti“ gasoviti agensi (HFC-227ea, odnosno FK-5-1-12), česti u elektro-prostorijama, server-salama i na jahtama. I oni istiskuju ili prekidaju gorenje: prostor se evakuiše pre ispusta.</li>
+<li><b>International shore connection</b> - standardni priključak da kopnena vatrogasna služba može da spoji vodu na brodski hidrantski sistem.</li>
+</ul>
+<h2>STCW osveženje</h2>
+<p>Ovo je podsetnik, ne kurs i ne pravni savet. Zastava, kompanija i datum tvoje isprave merodavni su za to šta moraš da obnoviš i gde.</p>
+<h3>Osnovni moduli</h3>
+<p><b>BST</b> (STCW Kodeks, odeljak A-VI/1) ima četiri dela:</p>
+<ul>
+<li><b>PST</b> - preživljavanje: alarm, prsluk, odelo, splav, ponašanje u vodi i u kolektivnim sredstvima.</li>
+<li><b>FPFF</b> - požar: prevencija, klase, aparati, creva, BA, dim, evakuacija i komandni lanac na vežbi.</li>
+<li><b>EFA</b> - prva pomoć: svest, disajni put, krvarenje, šok, opekotine, položaj, kada ne pomerati povređenog.</li>
+<li><b>PSSR</b> - život na brodu: alarmi, muster lista, dozvole za rad, zlostavljanje, umor, droga i alkohol, zaštita okoline.</li>
+</ul>
+<p>Uz to, prema dužnosti, dolaze <b>PSCRB</b>, <b>AFF</b>, <b>MFA</b> (i medicinska nega), <b>SSO</b>, <b>SAT</b> i <b>SDSD/PDSD</b>. Za zaštitu: svaka osoba treba svest o bezbednosti (SAT); ko ima određene ISPS dužnosti treba SDSD; SSO ima sopstveni kurs.</p>
+<h3>Obnova: šta je „na pet godina“</h3>
+<p>STCW traži da se kompetencija održava, a <b>mnogi praktični moduli obnavljaju se svakih pet godina</b>. Na nivou Konvencije, to se pre svega odnosi na module s praktičnim vežbama: <b>PST</b> i <b>FPFF</b> unutar osnovne obuke, kao i <b>PSCRB</b> i <b>AFF</b>. Kurs brzih spasilačkih čamaca, gde ga imaš, takođe ide u taj krug.</p>
+<p><b>EFA</b> i <b>PSSR</b> obično nemaju isti obavezni praktični „refresher“ na nivou samog STCW teksta, ali zastava, poslodavac ili kompanija mogu da traže više. Medicinski kursevi (MFA, medical care) često imaju sopstveni rok, opet po zastavi.</p>
+<p>Ne oslanjaj se na pamćenje iz jedne države. Pogledaj datum na svedočanstvu, zahtev zastave pod kojom ploviš i ono što kompanija traži pre ukrcaja.</p>
+<h3>Trougao i tetraedar požara</h3>
+<p>Klasični <b>trougao požara</b> ima tri elementa: <b>gorivo</b>, <b>toplotu</b> i <b>kiseonik</b>. Kad jedan ukloniš, gorenje prestaje. <b>Tetraedar</b> dodaje četvrti: <b>lančanu hemijsku reakciju</b>. Zato neki agensi (prašak, pojedini gasovi) „lome“ reakciju, voda prvenstveno hladi, pena odvaja kiseonik od goriva, a CO2 potiskuje kiseonik i delimično hladi.</p>
+<h3>Klase požara: Evropa, Amerika i brod</h3>
+<p>Ovde nastaje zabuna, jer <b>isto slovo ne znači istu stvar</b> u svakom priručniku.</p>
+<p>Po evropskom standardu <b>EN 2</b>:</p>
+<ul>
+<li><b>A</b> - čvrste materije (drvo, papir, tkanina, neke plastike), obično s žarom.</li>
+<li><b>B</b> - tečnosti i materije koje se tope (benzin, dizel, ulja, rastvarači, boje).</li>
+<li><b>C</b> - gasovi (propan, butan, metan, vodonik).</li>
+<li><b>D</b> - metali (magnezijum, natrijum, aluminijumski prah).</li>
+<li><b>F</b> - jestiva ulja i masti u kuhinjskim uređajima (friteza).</li>
+<li><b>Klasa E više nije u upotrebi.</b> Požar na električnoj opremi pod naponom nije posebna klasa, nego situacija: prvo, ako može, isključi napon, pa gasi agensom koji odgovara onome što gori i koji je bezbedan na struji.</li>
+</ul>
+<p>Po američkom <b>NFPA</b> pristupu (čest i u nekim brodskim priručnicima „IMO/US stila“):</p>
+<ul>
+<li><b>A</b> - obične čvrste materije.</li>
+<li><b>B</b> - zapaljive tečnosti <b>i gasovi</b> (ovde su gasovi u B, ne u C).</li>
+<li><b>C</b> - oprema <b>pod električnim naponom</b>. Kad napon isključiš, požar više nije „C“, nego A, B ili šta već ostane.</li>
+<li><b>D</b> - metali.</li>
+<li><b>K</b> - jestiva ulja i masti (kao evropski F).</li>
+</ul>
+<p>Na brodu možeš da sretneš oba sistema, zavisno od zastave, klase, proizvođača aparata i zemlje u kojoj je rađena obuka. <b>Merodavna je oznaka na aparatu i vatrogasni plan tog broda</b>, ne pamćenje slova s prethodnog ukrcaja.</p>
+<h3>Tipovi aparata i boje</h3>
+<p>U Evropi je telo prenosnog aparata <b>crveno</b>, a <b>sadržaj se prepoznaje po obojenoj traci</b> (praktikuje se preko EN 3 i nacionalnih vodiča kao što je BS 5306-10 u UK). Stariji aparati ponekad imaju celo telo u toj boji. Na brodovima pod drugim zastavama oznake mogu da izgledaju drugačije, zato <b>uvek čitaj natpis</b>.</p>
+<p>Tipična evropska traka:</p>
+<ul>
+<li><b>Crvena</b> (često bez druge trake) - <b>voda</b>. Za klasu A. <b>Ne koristi</b> na živoj struji, zapaljivim tečnostima, gasovima, metalima ni na vreloj masnoći (razpršuje goreću tečnost i može da napravi eksploziju pare u fritezi).</li>
+<li><b>Krem</b> - <b>pena</b>. Za A i B. <b>Ne koristi</b> na živoj struji (osim ako je aparat izričito ispitivan i označen za to), na gasovima, metalima i obično ne na klasi F.</li>
+<li><b>Plava</b> - <b>suvi prah</b> (često ABC). Za A, B, C i često za opremu pod naponom. Prlja, smanjuje vidljivost i može da ošteti elektroniku i mašine; u zatvorenom prostoru bude oblak u kom se teško diše i orijentisati. <b>Nije prvi izbor za fritezu</b> (može da razprši ulje i ne hladi dovoljno). Poseban prah za metale (klasa D) nije isti ABC prah; u novijoj UK praksi ta traka može biti i ljubičasta.</li>
+<li><b>Crna</b> - <b>CO2</b>. Za tečnosti (B) i električnu opremu pod naponom. Slab na dubokom žaru klase A (hladi slabo, može da se ponovo zapali). <b>Ne nišani u lice, ne drži goli rog</b> (hladnoća pravi opekotine), i <b>pazi u malom zatvorenom prostoru</b>: istiskuje kiseonik. Za klasu F nije pouzdan (može da razprši goreće ulje).</li>
+<li><b>Žuta</b> - <b>mokri hemijski agens</b> (<i>wet chemical</i>). Za klasu F (i obično A): pravi sapunastu koru na masnoći (saponifikacija) i hladi. To je aparat pored friteze, ne voda i ne CO2.</li>
+<li><b>Zelena</b> (retko) - stari „clean agent“ / halon; u civilnom radu je uglavnom povučen.</li>
+</ul>
+<p>Tehnika <b>PASS</b>: izvuci osigurač (<i>Pull</i>), nišani u <b>osnovu</b> plamena (<i>Aim</i>), stisni ručicu (<i>Squeeze</i>), prelazi mlazom levo-desno (<i>Sweep</i>). Gasi niz vetar/strujanje kad možeš, i ostavi stražu jer se požar zna vratiti.</p>
+<p>Na brodu su česti prenosni formati <b>9 L</b> (voda ili pena), <b>6 kg</b> prah, <b>5 kg CO2</b> (u manjim prostorijama i 2 kg). Poluprenosni, na točkovima, često su <b>45 L</b> i <b>135 L</b> pene (ponekad i veliki prah). Tačne veličine i raspored pišu u planu FFE; ovo su tipične, ne univerzalne mere.</p>
+<h3>Fiksni sistemi, detekcija i granice</h3>
+<ul>
+<li><b>CO2 total flooding</b>: evakuacija, brojanje ljudi, isključenje ventilacije, zvučni i vizuelni alarm, zadrška, tek onda ispust. Posle ispusta se ne ulazi bez BA, procedure i naređenja. Slučajni ispust u nastanjenoj mašini je smrtonosan.</li>
+<li><b>Sprinkler</b>: čest u smeštaju, pokreće se toplotom ili ručno/centralno, zavisno od sistema.</li>
+<li><b>Vodena magla / Hi-Fog</b>: sitne kapi, manje vode, česta u mašini, javnim prostorima i na jahtama.</li>
+<li><b>Pena</b>: palubni sistem na tankerima; ponekad i fiksna pena u mašini.</li>
+<li><b>Mokri hemijski sistem u kuhinji</b>: napa i friteza; ne gasiš to „hrabro“ vodom.</li>
+<li><b>FM-200 / Novec</b>: elektro-prostorije i slični zatvoreni volumeni; evakuacija pre ispusta i ovde važi.</li>
+</ul>
+<p>Detekcija: dimni, toplotni i plameni javljači, ručni javljači, centrala i ponavljači na mostu. <b>Požarna vrata</b> (A-60, A-30, A-0, B-15 i slično) i <b>klapne / damper-i</b> u ventilaciji zadržavaju vatru i dim. Vrata se ne ostavljaju pridržana klinom; ako ima magnetni držač, mora da otpusta na alarm.</p>
+<p><b>Hlađenje granica</b> (<i>boundary cooling</i>): s vodom se hlade pregrade, palube i vrata oko zahvaćene prostorije da se vatra ne prebaci. To je često posao ekipe koja nije u samoj prostoriji.</p>
+<p><b>Ulazak s BA</b>: nikad sam. Najmanje dvojka, kontrola na ulazu (tabla, pritisak, vreme, ime), veza, rezervna ekipa spremna, creva pod pritiskom, svetlo, briefing i odobrenje vođe akcije (obično C/O ili zapovednik). Izlazak kad padne vazduh, nestane veza, izgubiš orijentaciju ili stigne naređenje. <b>EEBD nije za napad na požar.</b></p>
+<h3>Zatvoreni prostor: kratka kontrolna lista</h3>
+<p>Po IMO rezoluciji A.1050(27), <b>normalan vazduh ima 20,9% kiseonika</b>; svako odstupanje treba tretirati oprezno. Mnoge kompanije dozvoljavaju ulazak samo oko te vrednosti (često blizu 20,8-21%). Pragovi tipa 19,5% iz nekih kopnenih propisa nisu „sigurna zona“, nego donja granica iz drugog sistema. <b>Tvoj SMS je merodavan.</b></p>
+<p>Uobičajena merenja, pre i tokom ulaska:</p>
+<ul>
+<li><b>O2</b> - cilj 20,9%. Ne ulazi ako je znatno ispod ili iznad normale (previsok kiseonik povećava rizik požara).</li>
+<li><b>LEL</b> / zapaljive pare - što bliže <b>0%</b>. I mali postotak donje granice eksplozivnosti je razlog da se ne ulazi, nego da se dodatno provetrava i meri.</li>
+<li><b>H2S</b> - cilj <b>0 ppm</b>. Alarmi su često na 5 ili 10 ppm, zavisno od instrumenta i kompanije.</li>
+<li><b>CO</b> - česti pragovi su 25 ili 50 ppm; i ovde je niže uvek bolje.</li>
+</ul>
+<p>Osnovni redosled: procena rizika i <b>dozvola za rad</b>, izolacija cevi i energije (LOTO), provetravanje, merenje <b>spolja</b> pre otvaranja koliko je moguće, zatim merenje unutra, <b>čovek napolju</b> (<i>standby / attendant</i>) koji ne ulazi „da pomogne“, dogovorena veza, plan izvlačenja i oprema za spašavanje spremna. Spašavanje iz zatvorenog prostora bez opreme i proceduri pravi dodatne žrtve. Atmosfera se menja dok radiš, zato se meri ponovo, ne samo na početku.</p>
+<h3>Napuštanje broda i preživljavanje</h3>
+<p><b>Signal za napuštanje broda</b> je u širokoj praksi <b>sedam kratkih i jedan dugi</b> na opštem alarmu i zvižduku. Ipak, potvrdi to na muster listi svog broda. Prvo se ide na zborno mesto, ako vreme i naređenje to dozvoljavaju, ne „pravo u splav“ na svoju ruku.</p>
+<p>Kratko:</p>
+<ul>
+<li>Prsluk pravilno vezan, svetlo i zviždaljka provereni.</li>
+<li>U hladnoj vodi immersion suit, vežban unapred.</li>
+<li>Splav: ručno spuštanje ako može; <b>HRU</b> je rezerva ako brod tone.</li>
+<li>EPIRB i SART/AIS-SART idu sa tobom, uključeni po proceduri.</li>
+<li>Ne skači ako možeš da se ukrcaš. Ako skačeš, prsluk pritisni, noge tesno, sa strane broda mimo elise i usisnika.</li>
+<li>U splavu: skupiti ljude, odmaknuti se od broda, brojati, zatvoriti otvore po potrebi, lekovi protiv morske bolesti, ne piti morsku vodu.</li>
+</ul>
+<h3>Signali uzbune (podsetnik)</h3>
+<p>Tačan šablon je onaj sa tvog broda. Najčešće:</p>
+<ul>
+<li><b>Opšti alarm / požar</b> - neprekidan ili unapred dogovoren niz na GA; detalj je na muster listi i na kartici za uzbunu.</li>
+<li><b>Napuštanje broda</b> - sedam kratkih i jedan dugi.</li>
+<li><b>Čovek u moru</b> - često tri duga.</li>
+</ul>
+<p>Čim se ukrcaš, prođi zborna mesta, put evakuacije, svoj aparat, svoj BA/EEBD i mesto u čamcu ili splavu.</p>
+<h3>Prva pomoć: DRSABC</h3>
+<p>Podsetnik, ne protokol za svaku zastavu i ne zamena za EFA/MFA:</p>
+<ul>
+<li><b>D</b> (<i>Danger</i>) - proveri opasnost. Ne postani drugi povređeni (struja, dim, pare, talas, mašina).</li>
+<li><b>R</b> (<i>Response</i>) - proveri odziv: progovori, lagano protresi ramena ako je bezbedno.</li>
+<li><b>S</b> (<i>Shout / Send</i>) - zovi pomoć, javi mostu, traži AED ako ga brod ima.</li>
+<li><b>A</b> (<i>Airway</i>) - otvori disajni put.</li>
+<li><b>B</b> (<i>Breathing</i>) - proveri disanje. Ako nema normalnog disanja, počinje oživljavanje po obuci.</li>
+<li><b>C</b> (<i>Circulation</i>) - krvarenje stišći pritiskom; krvotok se održava masažom srca kad je to indicirano.</li>
+</ul>
+<p>Ako osoba diše i sme da se pomera, stabilan (bočni) položaj. Sumnja na povredu kičme: što manje pomeranja, osim ako ga ostavljaš u neposrednoj opasnosti. Ovo je samo redosled sećanja; radi onako kako si obučen na kursevima.</p>
+<h2>Pitalica</h2>
+<p>Deset kratkih pitanja, odgovori odmah ispod svakog. Najbolje je da prvo zakloniš odgovor.</p>
+<ol>
+<li><b>Čemu služe ISM, SMS i DPA, i kako se razlikuju DOC i SMC?</b></li>
+</ol>
+<p>   ISM je kodeks, SMS je sistem kojim se kodeks sprovodi na kompaniji i brodu, DPA je osoba na kopnu kojoj možeš da se javiš mimo brodske hijerarhije. DOC je ISM dokument kompanije za tip broda, SMC je ISM sertifikat samog broda.</p>
+<ol>
+<li><b>Koja dva uobičajena značenja ima PMS?</b></li>
+</ol>
+<p>   <i>Planned Maintenance System</i> (planirano održavanje) i <i>power management system</i> (automatika agregata i razvoda). Kontekst ti kaže koje je.</p>
+<ol>
+<li><b>Šta je ISPS, a ko su SSO, CSO i PFSO?</b></li>
+</ol>
+<p>   ISPS je kodeks zaštite broda i luke. SSO je oficir zaštite na brodu, CSO u kompaniji, PFSO u luci.</p>
+<ol>
+<li><b>Koja je razlika između GMDSS područja A1 i A3?</b></li>
+</ol>
+<p>   A1 je zona VHF DSC obalske stanice. A3 je šira zona priznate mobilne satelitske službe (izvan A1/A2, uglavnom između otprilike 70°S i 70°N), ne samo „kad nestane VHF“.</p>
+<ol>
+<li><b>Zašto klasa C nije ista u Evropi i u SAD?</b></li>
+</ol>
+<p>   U EN 2, C su gasovi, a struja nije klasa. U NFPA sistemu, C je oprema pod naponom, a gasovi spadaju u B.</p>
+<ol>
+<li><b>Šta koristiš na požaru friteze, a šta ne?</b></li>
+</ol>
+<p>   Mokri hemijski aparat (žuta traka, klasa F ili K) ili fiksni kuhinjski sistem. <b>Ne vodu.</b> CO2 i prah nisu dobar prvi izbor jer mogu da razprše goreće ulje i slabo hlade.</p>
+<ol>
+<li><b>Čemu služi EEBD, a čemu ne?</b></li>
+</ol>
+<p>   Samo za beg iz zadimljenog ili zagađenog vazduha, kratko vreme. Ne služi za gašenje, za ulazak u prostoriju i za spašavanje drugih umesto BA.</p>
+<ol>
+<li><b>Koji je uobičajeni signal za napuštanje broda?</b></li>
+</ol>
+<p>   Sedam kratkih i jedan dugi, na alarmu i zvižduku, uz proveru na muster listi tog broda.</p>
+<ol>
+<li><b>Koja je normalna vrednost O2 za zatvoreni prostor i šta još mora da postoji pre ulaska?</b></li>
+</ol>
+<p>   20,9%. Uz to: dozvola, izolacija, merenje O2/LEL/toksičnih gasova, čovek napolju i plan spašavanja. SMS određuje tačne pragove.</p>
+<ol>
+<li><b>Šta znači PASS?</b></li>
+</ol>
+<p>    Izvuci osigurač, nišani u osnovu plamena, stisni ručicu, prelazi mlazom levo-desno.</p>
+<p>Ako si na neko pitanje zapao, vrati se na odgovarajući odeljak i pročitaj ga još jednom, pa ponovi samo ta pitanja. To je baš onaj tip prisećanja koji duže ostaje.</p>
+<h2>Izvori</h2>
+<ul>
+<li><a href="https://www.imo.org/en/about/conventions/pages/international-convention-on-standards-of-training%2C-certification-and-watchkeeping-for-seafarers-%28stcw%29.aspx">IMO - STCW konvencija</a></li>
+<li><a href="https://www.imo.org/en/About/Conventions/Pages/International-Convention-for-the-Safety-of-Life-at-Sea-(SOLAS">IMO - SOLAS</a>,-1974.aspx)</li>
+<li><a href="https://www.imo.org/en/About/Conventions/Pages/International-Convention-for-the-Prevention-of-Pollution-from-Ships-(MARPOL">IMO - MARPOL</a>.aspx)</li>
+<li><a href="https://www.imo.org/en/OurWork/HumanElement/Pages/ISMCode.aspx">IMO - ISM kodeks</a></li>
+<li><a href="https://www.imo.org/en/OurWork/Security/Pages/SOLAS-XI-2%20ISPS%20Code.aspx">IMO - ISPS kodeks</a></li>
+<li><a href="https://www.imo.org/en/About/Conventions/Pages/COLREG.aspx">IMO - COLREG</a></li>
+<li><a href="https://www.imo.org/en/About/Conventions/Pages/International-Convention-on-Load-Lines.aspx">IMO - konvencija o tovarnoj marki (Load Lines)</a></li>
+<li><a href="https://www.imo.org/en/OurWork/MSAS/Pages/PortStateControl.aspx">IMO - Port State Control</a></li>
+<li><a href="https://www.imo.org/en/About/Conventions/Pages/International-Convention-for-the-Control-and-Management-of-Ships'-Ballast-Water-and-Sediments-(BWM">IMO - balastne vode (BWM)</a>.aspx)</li>
+<li><a href="https://www.imo.org/en/MediaCentre/HotTopics/Pages/EEXI-CII-FAQ.aspx">IMO - EEXI i CII, pitanja i odgovori</a></li>
+<li><a href="https://www.imo.org/en/MediaCentre/HotTopics/Pages/Reducing-greenhouse-gas-emissions-from-ships.aspx">IMO - smanjenje emisija stakleničkih gasova s brodova</a></li>
+<li><a href="https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.1050(27">IMO - rezolucija A.1050(27), ulazak u zatvorene prostore (PDF)</a>.pdf)</li>
+<li><a href="https://www.ilo.org/international-labour-standards/maritime-labour-convention-2006">ILO - Maritime Labour Convention, 2006</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Fire_class">Wikipedia - klase požara (EN 2 i NFPA)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Fire_extinguisher">Wikipedia - vatrogasni aparati i oznake</a></li>
+<li><a href="https://www.london-fire.gov.uk/media/cnyexexn/hand-held-portable-firefighting-equipment-gn08.pdf">London Fire Brigade - prenosna vatrogasna oprema, boje i klase (PDF, GN08)</a></li>
+<li><a href="https://www.nfpa.org/education-and-research/home-fire-safety/fire-extinguishers">NFPA - osnove o aparatima i klasama u SAD</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Global_Maritime_Distress_and_Safety_System">Wikipedia - GMDSS</a></li>
+<li><a href="https://en.wikipedia.org/wiki/International_Ship_and_Port_Facility_Security_Code">Wikipedia - ISPS kodeks</a></li>
+<li><a href="https://en.wikipedia.org/wiki/International_Safety_Management_Code">Wikipedia - ISM kodeks</a></li>
+<li><a href="https://en.wikipedia.org/wiki/STCW_Convention">Wikipedia - STCW</a></li>
+</ul>]]></description>
+<content:encoded><![CDATA[<p>Rečnik oznaka koje čuješ na brodu, plus kratko osveženje iz STCW obuke: klase požara, aparati, zatvoreni prostori i signali uzbune. Čitanje: oko 30 minuta.</p>
+<p>Ovo nije zamena za kompanijski SMS, muster listu, vatrogasni plan ni kurs. Gde se praksa razlikuje po zastavi, klasi ili kompaniji, to je naznačeno. Kad stigneš na brod, merodavni su dokumenti i oznake baš tog broda.</p>
+<h2>Ukratko</h2>
+<ul>
+<li><b>Iste tri slova često znače dve stvari.</b> PMS je i planirano održavanje i sistem upravljanja električnom energijom; SMS je sistem upravljanja bezbednošću; LOA je i dužina broda i odsustvo. Gledaj kontekst.</li>
+<li><b>Konvencije se naslanjaju jedna na drugu.</b> SOLAS, MARPOL, STCW, MLC, ISM i ISPS nisu odvojeni svetovi: sertifikati, vežbe, dnevnici i kontrole postoje zato što ih ti propisi traže.</li>
+<li><b>Kod požara prvo utvrdi šta gori, pa biraj aparat.</b> Evropske klase (EN 2) i američke (NFPA) nisu iste, posebno kod slova C. Na brodu čitaj oznaku aparata i vatrogasni plan. Vodu ne koristi na živoj struji ni na vreloj masnoći.</li>
+</ul>
+<h2>Rečnik skraćenica</h2>
+<p>Ispod je širi pregled, ne „sve što postoji“. Uz svaku oznaku je pun engleski naziv i jedna rečenica šta to u praksi znači na brodu.</p>
+<h3>Konvencije, organizacije i nadzor</h3>
+<ul>
+<li><b>IMO</b> (<i>International Maritime Organization</i>) - agencija UN-a koja donosi glavne pomorske konvencije i kodekse; to je „krov“ za SOLAS, MARPOL, STCW i većinu ostalog na ovom spisku.</li>
+<li><b>SOLAS</b> (<i>International Convention for the Safety of Life at Sea</i>) - osnovna konvencija o bezbednosti broda, posade i putnika: konstrukcija, požar, LSA, radio, brodska oprema i vežbe.</li>
+<li><b>MARPOL</b> (<i>International Convention for the Prevention of Pollution from Ships</i>) - konvencija o sprečavanju zagađenja s brodova, podeljena na anekse (ulje, hemikalije, štetne materije u pakovanju, fekalije, smeće, vazduh i tako dalje).</li>
+<li><b>STCW</b> (<i>International Convention on Standards of Training, Certification and Watchkeeping for Seafarers</i>) - minimalni međunarodni standardi obuke, sertifikata i straže; odavde dolaze BST, CoC i pravila o smenama.</li>
+<li><b>MLC</b> (<i>Maritime Labour Convention, 2006</i>) - „povelja prava pomoraca“: ugovor o radu, plate, smeštaj, hrana, zdravlje, repatrijacija i inspekcija uslova rada.</li>
+<li><b>COLREG</b> ili <b>COLREGS</b> (<i>International Regulations for Preventing Collisions at Sea</i>) - pravila izbegavanja sudara: svetla, oblici, zvukovi i ko kome ustupa put.</li>
+<li><b>ISM</b> (<i>International Safety Management Code</i>) - kodeks iz SOLAS-a koji traži da kompanija i brod imaju sistem upravljanja bezbednošću (SMS), sa procedurama, vežbama i prijavom neusklađenosti.</li>
+<li><b>ISPS</b> (<i>International Ship and Port Facility Security Code</i>) - kodeks o zaštiti broda i luke od namernih pretnji: nivoi zaštite, kontrola pristupa, pretrage i bezbednosni planovi.</li>
+<li><b>LL</b> ili <b>ICLL</b> (<i>International Convention on Load Lines</i>) - konvencija o tovarnoj marki: koliko brod sme da se gaziti, prema zoni i godišnjem dobu.</li>
+<li><b>ILO</b> (<i>International Labour Organization</i>) - organizacija UN-a za rad; MLC je njen ključni pomorski instrument.</li>
+<li><b>IACS</b> (<i>International Association of Classification Societies</i>) - udruženje vodećih klasifikacionih društava; preko njega idu zajednička pravila (uključujući i novija o kibernetičkoj otpornosti).</li>
+<li><b>Class</b> (<i>classification society</i>) - klasifikaciono društvo (DNV, Lloyd's Register, ABS, BV, ClassNK, RINA i druga) koje nadzire gradnju i stanje trupa i mašina i izdaje sertifikate klase.</li>
+<li><b>RO</b> (<i>Recognized Organization</i>) - organizacija (često klasa) koju je zastava ovlastila da u njeno ime radi preglede i izdaje pojedine sertifikate.</li>
+<li><b>RSO</b> (<i>Recognized Security Organization</i>) - organizacija koju zastava može da ovlasti za poslove iz ISPS-a, na primer izradu ili pregled bezbednosne procene i plana.</li>
+<li><b>PSC</b> (<i>Port State Control</i>) - inspekcija broda od strane države luke; proverava da li brod, posada i dokumenta stvarno odgovaraju konvencijama, ne samo „na papiru“.</li>
+<li><b>MoU</b> (<i>Memorandum of Understanding</i>) - regionalni sporazum o PSC-u (Pariski, Tokijski i drugi); režim i „bela/siva/crna lista“ zavise od regiona u kom te zaustave.</li>
+<li><b>Flag State</b> ili <b>FSI</b> (<i>flag State / flag State implementation or inspection</i>) - država zastave je prva odgovorna za brod; njene inspekcije i tumačenja propisa su merodavni za tvoje sertifikate i opremu.</li>
+<li><b>IAMSAR</b> (<i>International Aeronautical and Maritime Search and Rescue Manual</i>) - zajednički priručnik IMO-a i ICAO-a kako se vodi potraga i spasavanje s mora i iz vazduha.</li>
+<li><b>BWM</b> (<i>International Convention for the Control and Management of Ships' Ballast Water and Sediments</i>) - konvencija o balastnim vodama; na brodu se vidi kroz BWMP, dnevnik i sistem za tretman (BWTS).</li>
+<li><b>Tonnage</b> (<i>International Convention on Tonnage Measurement of Ships</i>) - način merenja GT i NT; od tih brojki vise takse, razredi sertifikata i ponekad sastav posade.</li>
+<li><b>USCG</b> (<i>United States Coast Guard</i>) - obalska straža SAD; u američkim vodama ima jak PSC i sopstvena pravila, posebno za tankere, putničke brodove i zaštitu.</li>
+<li><b>MCA</b> (<i>Maritime and Coastguard Agency</i>) - britanska pomorska uprava; važna za Red Ensign zastave, ENG1 lekarski pregled i jahtne kodekse.</li>
+</ul>
+<h3>Bezbednost, zaštita i sistemi upravljanja</h3>
+<ul>
+<li><b>SMS</b> (<i>Safety Management System</i>) - sistem upravljanja bezbednošću po ISM-u: priručnici, procedure, dozvole za rad, vežbe, prijave i unutrašnje provere. (Ponekad ista skraćenica označava i softver, ali na brodu prvo pomisli na ISM.)</li>
+<li><b>DPA</b> (<i>Designated Person Ashore</i>) - imenovana osoba na kopnu; tvoja direktna veza između broda i najvišeg rukovodstva kompanije kad je u pitanju bezbednost i zagađenje.</li>
+<li><b>CSO</b> (<i>Company Security Officer</i>) - osoba u kompaniji odgovorna za ISPS na svim brodovima flote; radi sa SSO-om i lukama.</li>
+<li><b>SSO</b> (<i>Ship Security Officer</i>) - oficir zaštite na brodu (često palubni oficir); vodi SSP, vežbe, kontrolu pristupa i komunikaciju s PFSO-om.</li>
+<li><b>PFSO</b> (<i>Port Facility Security Officer</i>) - oficir zaštite lučkog objekta; s njim se usklađuje nivo zaštite i, po potrebi, potpisuje DoS.</li>
+<li><b>SSP</b> (<i>Ship Security Plan</i>) - poverljivi plan zaštite broda: nivoi 1-3, ograničene zone, pretrage, ključevi i postupci u pretnji.</li>
+<li><b>SSA</b> (<i>Ship Security Assessment</i>) - procena ugroženosti i slabosti broda; osnova za izradu ili izmenu SSP-a.</li>
+<li><b>DoS</b> (<i>Declaration of Security</i>) - izjava o zaštiti između broda i luke (ili dva broda) kad nivoi ili rizik to zahtevaju.</li>
+<li><b>DOC</b> (<i>Document of Compliance</i>) - ISM dokument kompanije za određeni tip broda; bez važećeg DOC-a brod ne može da dobije ili zadrži SMC.</li>
+<li><b>SMC</b> (<i>Safety Management Certificate</i>) - ISM sertifikat samog broda, izdaje se posle provere da SMS stvarno radi na tom brodu.</li>
+<li><b>ISSC</b> (<i>International Ship Security Certificate</i>) - ISPS sertifikat broda; potvrđuje da su plan, oprema i vežbe zaštite na mestu.</li>
+<li><b>CSR</b> (<i>Continuous Synopsis Record</i>) - hronološki zapis o istoriji broda: ime, zastava, vlasnik, kompanija, klasa i izmene.</li>
+<li><b>NCR</b> (<i>non-conformity report</i>) - prijava neusklađenosti sa SMS-om ili standardom; može biti „obična“ ili veća (major). Zatvara se merama i proverom, ne fajlovanjem u fioku.</li>
+<li><b>DMLC</b> (<i>Declaration of Maritime Labour Compliance</i>) - izjava o usklađenosti s MLC-om: deo I izdaje zastava, deo II popunjava kompanija. Uz nju ide i MLC sertifikat.</li>
+<li><b>PMS</b> (<i>Planned Maintenance System</i>) - sistem planiranog održavanja: radovi, intervali, rezervni delovi i zapisnici, često povezan s klasom i ISM-om. (Drugo značenje, power management, je niže, u delu o mostu i mašini.)</li>
+<li><b>CMS</b> (<i>Continuous Machinery Survey</i> ili <i>condition monitoring system</i>) - u klasi: kontinuirani pregled mašina umesto svega odjednom; u tehnici ponekad i sistem za praćenje stanja (vibracije, temperature).</li>
+<li><b>JHA</b> / <b>JSA</b> (<i>job hazard / job safety analysis</i>) - razlaganje posla na korake i opasnosti pre početka rada.</li>
+<li><b>RA</b> (<i>risk assessment</i>) - procena rizika; često preduslov za dozvolu za rad i za svaki neuobičajen posao.</li>
+<li><b>PTW</b> (<i>permit to work</i>) - dozvola za rad (vrući rad, zatvoreni prostor, rad na visini, rad na naponu i slično). Važi samo uz uslove, vreme i potpise navedene na njoj.</li>
+<li><b>LOTO</b> (<i>lock out / tag out</i>) - fizička blokada i označavanje izvora energije (ventil, prekidač, starter) da niko ne pusti pogon dok se radi.</li>
+<li><b>TBT</b> (<i>toolbox talk</i>) - kratki razgovor ekipe neposredno pred posao: šta radimo, šta može poći po zlu, ko gde stoji.</li>
+<li><b>MSDS</b> ili <b>SDS</b> (<i>material / safety data sheet</i>) - bezbednosni list hemikalije: opasnosti, zaštita, prva pomoć i postupanje pri izlivanju. Čitaj ga pre nego što otvoriš burad.</li>
+<li><b>PPE</b> (<i>personal protective equipment</i>) - lična zaštitna oprema: kaciga, naočari, rukavice, zaštitne cipele, kombinezon, štitnici za sluh. Ne zamenjuje uklanjanje opasnosti.</li>
+<li><b>SOPEP</b> (<i>Shipboard Oil Pollution Emergency Plan</i>) - brodski plan za izlivanje ulja: koga zvati, gde je oprema, šta prvo raditi.</li>
+<li><b>SMPEP</b> (<i>Shipboard Marine Pollution Emergency Plan</i>) - sličan plan za brodove koji prevoze štetne tečne materije; ponekad je spojen sa SOPEP-om.</li>
+<li><b>BWMP</b> (<i>Ballast Water Management Plan</i>) - plan upravljanja balastom: kad se menja, tretira, beleži i šta se ne sme.</li>
+<li><b>GMP</b> (<i>Garbage Management Plan</i>) - plan upravljanja smećem; uz njega ide GRB i plakati o tome šta sme da se baci i gde.</li>
+<li><b>ORB</b> (<i>Oil Record Book</i>) - knjiga evidencije ulja (deo I za mašinu, deo II za teret na tankeru). Upisuj tačno; PSC ovo čita pedantno.</li>
+<li><b>GRB</b> (<i>Garbage Record Book</i>) - knjiga evidencije smeća. I ovde su netačni unosi čest razlog zamerki.</li>
+<li><b>IOPP</b> (<i>International Oil Pollution Prevention Certificate</i>) - MARPOL Aneks I sertifikat; uz njega idu dopune o tankovima, OWS-u i opremi.</li>
+<li><b>IAPP</b> (<i>International Air Pollution Prevention Certificate</i>) - MARPOL Aneks VI sertifikat o sprečavanju zagađenja vazduha (NOx, SOx, ozonske materije).</li>
+<li><b>IEE</b> / <b>IEEC</b> (<i>International Energy Efficiency Certificate</i>) - sertifikat energetske efikasnosti, vezan za EEDI/EEXI i SEEMP.</li>
+<li><b>EEXI</b> (<i>Energy Efficiency Existing Ship Index</i>) - tehnički indeks efikasnosti postojećeg broda; može da znači ograničenje snage motora (shaft/engine power limitation).</li>
+<li><b>CII</b> (<i>Carbon Intensity Indicator</i>) - godišnji pokazatelj ugljeničnog intenziteta; ocena (A-E) utiče na to koliko kompanija mora da popravi rad broda.</li>
+<li><b>SEEMP</b> (<i>Ship Energy Efficiency Management Plan</i>) - plan efikasnosti: deo o merama na brodu, plus delovi vezani za CII i izveštavanje.</li>
+<li><b>ECA</b> (<i>Emission Control Area</i>) - područje kontrole emisija (SOx, NOx ili oboje); ulazak menja gorivo, postavke motora ili rad skrubera.</li>
+<li><b>SECA</b> (<i>SOx Emission Control Area</i>) - ECA usmerena na sumpor; danas se često govori pod opštim imenom ECA.</li>
+<li><b>BDN</b> (<i>bunker delivery note</i>) - dostavnica bunkera: količina, gustina, sadržaj sumpora. Čuvaj je; treba i za ORB i za inspekciju.</li>
+<li><b>MRV</b> (<i>monitoring, reporting and verification</i>) - u EU (i Ujedinjenom Kraljevstvu) sistem merenja i prijave emisija; nije isto što i IMO DCS, ali se podaci delom preklapaju.</li>
+<li><b>DCS</b> (<i>IMO Data Collection System</i>) - IMO sistem prikupljanja podataka o potrošnji goriva, osnov za CII.</li>
+<li><b>IHM</b> (<i>Inventory of Hazardous Materials</i>) - popis opasnih materijala na brodu, važan za reciklažu i sve češće za inspekcije.</li>
+</ul>
+<h3>Navigacija, most i GMDSS</h3>
+<ul>
+<li><b>ECDIS</b> (<i>Electronic Chart Display and Information System</i>) - sistem elektronskih karata koji, uz odgovarajuće karte, obuku i rezervu, može da zameni papirne karte.</li>
+<li><b>ENC</b> (<i>Electronic Navigational Chart</i>) - vektorska zvanična karta za ECDIS (S-57/S-63, prelaz na S-101).</li>
+<li><b>RNC</b> (<i>Raster Navigational Chart</i>) - rasterska slika papirne karte; koristi se u RCDS režimu, s dodatnim ograničenjima u odnosu na ENC.</li>
+<li><b>ARPA</b> (<i>Automatic Radar Plotting Aid</i>) - radarska funkcija koja prati ciljeve i računa CPA/TCPA; ne oslobađa te od gledanja i procene.</li>
+<li><b>AIS</b> (<i>Automatic Identification System</i>) - radio-sistem koji šalje i prima identitet, položaj i kretanje brodova. Koristan, ali nije radar i može da se isključi, zakasni ili lažira.</li>
+<li><b>VDR</b> (<i>voyage data recorder</i>) - „crna kutija“ broda: most, radio, komande i alarmi. Posle havarije se čuva i predaje istrazi.</li>
+<li><b>S-VDR</b> (<i>simplified VDR</i>) - pojednostavljeni zapisnik, često na starijim teretnim brodovima, s užim skupom podataka.</li>
+<li><b>GPS</b> / <b>GNSS</b> (<i>Global Positioning System / Global Navigation Satellite System</i>) - satelitska navigacija; GNSS je opšti pojam (GPS, Galileo, GLONASS, BeiDou). Ne veruj jednom prikazu bez provere.</li>
+<li><b>DGPS</b> (<i>Differential GPS</i>) - korekcija GPS-a s kopnenih ili satelitskih stanica, radi manje greške položaja.</li>
+<li><b>BNWAS</b> (<i>Bridge Navigational Watch Alarm System</i>) - alarm da je časnik na mostu budan i za mostom; reset u predviđenom intervalu, inače zove rezervu pa alarm kroz brod.</li>
+<li><b>NAVTEX</b> (<i>Navigational Telex</i>) - automatski prijem priobalnih navigacijskih i meteoroloških upozorenja na 518 kHz (i lokalnim jezicima na 490 kHz).</li>
+<li><b>EPIRB</b> (<i>Emergency Position Indicating Radio Beacon</i>) - bova koja preko COSPAS-SARSAT sistema šalje poziv u pomoć i položaj. Proveravaj rok, stisak i hidrostatičko otpuštanje.</li>
+<li><b>SART</b> (<i>Search and Rescue Transponder</i>) - radarski transponder koji na X-band radaru spasioca crta niz tačaka; uključuje se u splavu ili čamcu.</li>
+<li><b>AIS-SART</b> (<i>AIS search and rescue transmitter</i>) - isti cilj preko AIS-a: na ekranima se vidi kao cilj u nevolji, ne kao klasični SART odjek.</li>
+<li><b>GMDSS</b> (<i>Global Maritime Distress and Safety System</i>) - globalni sistem za nevolju i bezbednost: DSC, radio, satelit, NAVTEX, EPIRB, SART i čuvanje slušanja.</li>
+<li><b>A1, A2, A3, A4</b> (<i>GMDSS sea areas</i>) - područja pokrivenosti: A1 je VHF DSC, A2 je MF DSC izvan A1, A3 je pokrivenost priznatog mobilnog satelita (ranije praktično Inmarsat, danas i drugi, npr. Iridium) između otprilike 70°S i 70°N, A4 su pretežno polarne oblasti s HF. Oprema i radio-sertifikat moraju da odgovaraju području plovidbe.</li>
+<li><b>DSC</b> (<i>Digital Selective Calling</i>) - digitalni poziv na VHF/MF/HF; kanal 70 na VHF-u je za DSC, ne za ćaskanje.</li>
+<li><b>VHF</b> / <b>MF</b> / <b>HF</b> (<i>very / medium / high frequency</i>) - opsezi radio-veze: VHF za blizinu, MF za srednje, HF za daleke oblasti.</li>
+<li><b>MMSI</b> (<i>Maritime Mobile Service Identity</i>) - devetocifreni radio-identitet broda, unet u DSC, AIS i srodne uređaje. Mora da se poklapa s dokumentima.</li>
+<li><b>LRIT</b> (<i>Long-Range Identification and Tracking</i>) - sistem dalekog praćenja položaja koji brod šalje zastavi, a po pravilima i drugim državama, ne javni AIS.</li>
+<li><b>SSAS</b> (<i>Ship Security Alert System</i>) - tihi alarm zaštite (npr. piratstvo ili otmica); šalje upozorenje na kopno bez brodske sirene.</li>
+<li><b>Inmarsat</b> - porodica priznatih satelitskih službi (C, Fleet, Fleet Broadband i novije); i dalje česta osnova za A3, ali više nije jedina.</li>
+<li><b>RCC</b> / <b>MRCC</b> (<i>rescue / maritime rescue coordination centre</i>) - centar koji vodi akciju spasavanja. Njega zoveš u nevolji, i on zove tebe.</li>
+<li><b>ETA</b> / <b>ETD</b> / <b>ETB</b> (<i>estimated time of arrival / departure / berthing</i>) - procenjeno vreme dolaska, odlaska i privezivanja. Menjaj ih čim znaš tačnije.</li>
+<li><b>CPA</b> / <b>TCPA</b> (<i>closest point of approach / time to CPA</i>) - najmanje rastojanje do cilja i vreme do tog trenutka; osnovna merila za rizik sudara.</li>
+<li><b>OOW</b> (<i>officer of the watch</i>) - časnik na straži (na mostu, osim ako piše da je u mašini). Odgovoran je za bezbednu plovidbu u svojoj smeni.</li>
+<li><b>BRM</b> / <b>BTM</b> (<i>bridge resource / team management</i>) - rad mosta kao tima: komunikacija, podela poslova, izazivanje odluka i korišćenje svih raspoloživih sredstava.</li>
+<li><b>VTS</b> (<i>vessel traffic services</i>) - lučka ili obalska služba upravljanja saobraćajem; slušaj, javi se po pravilima i prati instrukcije.</li>
+<li><b>TSS</b> (<i>traffic separation scheme</i>) - shema razdvajanja saobraćaja iz COLREG pravila 10.</li>
+<li><b>IBS</b> / <b>INS</b> (<i>integrated bridge / navigation system</i>) - integrisani most ili navigacioni sistem; pogodnost, ali i zajednička tačka kvara ako ne umeš da radiš „ručno“.</li>
+</ul>
+<h3>Mašinska prostorija i pogon</h3>
+<ul>
+<li><b>ME</b> (<i>main engine</i>) - glavni motor.</li>
+<li><b>AE</b> / <b>DG</b> (<i>auxiliary engine / diesel generator</i>) - pomoćni motor, odnosno dizel-agregat za struju.</li>
+<li><b>EDG</b> (<i>emergency diesel generator</i>) - rezervni agregat; mora da krene i preuzme bitna trošila pri nestanku glavne mreže.</li>
+<li><b>ECR</b> (<i>engine control room</i>) - kontrolna prostorija mašine.</li>
+<li><b>MCR</b> (<i>maximum continuous rating</i> ili ponekad <i>machinery control room</i>) - najčešće maksimalna trajna snaga motora; u nekim kompanijama ista slova znače i kontrolnu prostoriju mašine, pa gledaj kontekst.</li>
+<li><b>RPM</b> (<i>revolutions per minute</i>) - broj obrtaja u minuti.</li>
+<li><b>UMS</b> (<i>unattended machinery space</i>) - mašinska prostorija predviđena za rad bez stalne straže; alarmi moraju da stignu do časnika na dužnosti.</li>
+<li><b>CPP</b> (<i>controllable pitch propeller</i>) - propeler s promenljivim korakom; „kretanje“ i „obrtaji“ nisu ista stvar kao kod fiksnog koraka.</li>
+<li><b>DP</b> (<i>dynamic positioning</i>) - dinamičko pozicioniranje: brod stoji ili prati tačku pomoću potisnika i referentnih sistema, uz razrede DP-1/2/3.</li>
+<li><b>PMS</b> (<i>power management system</i>) - automatika koja deli teret među agregatima, sprečava blackout i vodi priključivanje na sabirnice. Nije isto što i planned maintenance.</li>
+<li><b>MSB</b> / <b>ESB</b> (<i>main / emergency switchboard</i>) - glavna i rezervna razvodna tabla.</li>
+<li><b>OWS</b> (<i>oily water separator</i>) - separator zauljene vode iz bilja. Ispuštanje samo uz uslove MARPOL-a, ispravan 15-ppm alarm i pošten upis u ORB.</li>
+<li><b>ODME</b> (<i>oil discharge monitoring equipment</i>) - sistem praćenja ispuštanja zauljenog vodenog balasta/pranja na tankerima.</li>
+<li><b>STP</b> (<i>sewage treatment plant</i>) - uređaj za tretman fekalija; Aneks IV određuje šta sme u more i gde.</li>
+<li><b>FO</b> / <b>DO</b> (<i>fuel oil / diesel oil</i>) - opšti nazivi za gorivo, odnosno dizel.</li>
+<li><b>HFO</b> (<i>heavy fuel oil</i>) - teško gorivo; zahteva grejanje, prečišćavanje i pažnju pri promeni.</li>
+<li><b>MGO</b> (<i>marine gas oil</i>) - destilatno gorivo, često za pomoćne motore, ulazak u ECA ili kao rezervno.</li>
+<li><b>VLSFO</b> / <b>ULSFO</b> (<i>very / ultra low sulphur fuel oil</i>) - goriva s niskim, odnosno veoma niskim sumporom.</li>
+<li><b>LSMGO</b> (<i>low sulphur marine gas oil</i>) - niskosumporni MGO, čest izbor za ECA.</li>
+<li><b>LO</b> (<i>lubricating oil</i>) - ulje za podmazivanje; prati popunu, vodu u ulju i analize.</li>
+<li><b>PV ventil</b> (<i>pressure/vacuum valve</i>) - ventil koji čuva tank od prevelikog pritiska ili vakuuma, posebno na tankerima i u IGS-u.</li>
+<li><b>IG</b> / <b>IGS</b> (<i>inert gas / inert gas system</i>) - inertni gas kojim se smanjuje kiseonik u tankovima da smeša ne bude zapaljiva.</li>
+<li><b>FWG</b> (<i>fresh water generator</i>) - uređaj za proizvodnju pijaće ili tehničke slatke vode (isparivač ili reverzna osmoza).</li>
+<li><b>UTM</b> (<i>ultrasonic thickness measurement</i>) - merenje debljine lima ultrazvukom, obavezno u pregledima klase trupa.</li>
+<li><b>BWTS</b> (<i>ballast water treatment system</i>) - uređaj za tretman balasta (UV, elektrohlorisanje ili drugi postupak).</li>
+<li><b>EGCS</b> (<i>exhaust gas cleaning system</i>, „skruber“) - pere izduv da bi se ispunila granica sumpora dok se loži gorivo s višim sadržajem S.</li>
+<li><b>SCR</b> / <b>EGR</b> (<i>selective catalytic reduction / exhaust gas recirculation</i>) - tehnike za smanjenje NOx (katalizator s ureom, odnosno recirkulacija izduva).</li>
+<li><b>SBE</b> / <b>FWE</b> (<i>stand by engines / finished with engines</i>) - most javlja mašini da motore stavi u pripravnost, odnosno da je s pogonom za tu operaciju gotovo.</li>
+</ul>
+<h3>Teret, brodski podaci i komercijala</h3>
+<ul>
+<li><b>B/L</b> (<i>bill of lading</i>) - tovarni list: dokaz o prijemu tereta, ugovor o prevozu i (često) isprava s kojom primalac preuzima robu.</li>
+<li><b>NOR</b> (<i>notice of readiness</i>) - obaveštenje da je brod spreman za ukrcaj ili iskrcaj, bitno za laytime i zastoj.</li>
+<li><b>SOF</b> (<i>statement of facts</i>) - hronologija lučkih operacija; osnova za proračun vremena i spora oko demurrage-a.</li>
+<li><b>LOI</b> (<i>letter of indemnity</i>) - pismo obeštećenja (npr. isporuka bez originalnog B/L-a). Pravni rizik je veliki; ne potpisuje se „usput“.</li>
+<li><b>C/P</b> (<i>charter party</i>) - ugovor o najmu broda (voyage, time, bareboat). Tu pišu raspodela troškova, NOR, laycan i odgovornosti.</li>
+<li><b>LAYCAN</b> (<i>laydays / cancelling date</i>) - prozor u kom brod treba da stigne; posle canceling datuma naručilac može da otkaže.</li>
+<li><b>DWT</b> (<i>deadweight tonnage</i>) - nosivost: koliko brod sme da ponese (teret, gorivo, voda, zalihe) do tovarne marke.</li>
+<li><b>GT</b> / <b>NT</b> (<i>gross / net tonnage</i>) - zapreminske mere broda, ne „tone težine“. GT je ukupna zapremina, NT komercijalno korisna.</li>
+<li><b>LOA</b> (<i>length overall</i>) - najveća dužina broda, bitna za gazicu, vez i kanale. (U kadrovima LOA može da znači i <i>leave of absence</i>.)</li>
+<li><b>TPC</b> (<i>tonnes per centimetre immersion</i>) - koliko tona menja gaz za jedan centimetar; brza računica pri ukrcaju.</li>
+<li><b>DG</b> (<i>dangerous goods</i>) - opasan teret; na brodu se tretira po IMDG, IMSBC, IBC ili IGC, zavisno od oblika i broda.</li>
+<li><b>IMDG</b> (<i>International Maritime Dangerous Goods Code</i>) - kodeks za opasan teret u pakovanju: klase, odvajanje, deklaracije i požarni postupci.</li>
+<li><b>IMSBC</b> (<i>International Maritime Solid Bulk Cargoes Code</i>) - kodeks za čvrste rasute terete, uključujući one koji mogu da se pretvore u tečnost (liquefaction).</li>
+<li><b>IBC</b> (<i>International Code for the Construction and Equipment of Ships Carrying Dangerous Chemicals in Bulk</i>) - kodeks za hemijske tankere.</li>
+<li><b>IGC</b> (<i>International Code for the Construction and Equipment of Ships Carrying Liquefied Gases in Bulk</i>) - kodeks za gasne tankere.</li>
+<li><b>IGF</b> (<i>International Code of Safety for Ships Using Gases or Other Low-flashpoint Fuels</i>) - kodeks za brodove koji koriste gas ili drugo gorivo niske tačke paljenja (npr. LNG kao bunkera).</li>
+<li><b>MFAG</b> (<i>Medical First Aid Guide</i>) - medicinski vodič uz IMDG, za izloženost opasnim materijama.</li>
+<li><b>EmS</b> (<i>Emergency Response Procedures for Ships Carrying Dangerous Goods</i>) - vatrogasne i razlivene procedure uz IMDG.</li>
+<li><b>VGM</b> (<i>verified gross mass</i>) - proverena bruto masa kontejnera; bez nje (gde se traži) kontejner se ne ukrcava.</li>
+<li><b>COW</b> (<i>crude oil washing</i>) - pranje tankova sirovom naftom na tankerima, po strogoj proceduri i uz IGS.</li>
+<li><b>ROB</b> (<i>remaining on board</i>) - šta je ostalo u tankovima (teret ili bunkera) posle operacije.</li>
+<li><b>ISGOTT</b> (<i>International Safety Guide for Oil Tankers and Terminals</i>) - standardni vodič za bezbedan rad tankera i terminala.</li>
+<li><b>OCIMF</b> (<i>Oil Companies International Marine Forum</i>) - udruženje naftnih kompanija; iza njega su ISGOTT, SIRE i TMSA.</li>
+<li><b>SIRE</b> (<i>Ship Inspection Report Programme</i>) - inspekcijski program OCIMF-a za tankere (sada i SIRE 2.0).</li>
+</ul>
+<h3>Posada, sertifikati i jahte</h3>
+<ul>
+<li><b>Master</b> - zapovednik; pravno i operativno odgovoran za brod, posadu, teret i odluke u nuždi.</li>
+<li><b>C/O</b> (<i>chief officer / chief mate</i>) - stariji oficir palube; teret, stabilitet, palubna posada, često i vatrogasni i bezbednosni posao.</li>
+<li><b>2/O</b> / <b>3/O</b> (<i>second / third officer</i>) - drugi i treći časnik palube; tipično navigacija, GMDSS, LSA/FFE evidencija, straža, zavisno od broda.</li>
+<li><b>C/E</b> (<i>chief engineer</i>) - upravnik mašine; odgovoran za pogon, bunku, tehničku bezbednost i mašinsku posadu.</li>
+<li><b>2/E</b> / <b>3/E</b> / <b>4/E</b> (<i>second / third / fourth engineer</i>) - časnička linija u mašini; podela (ME, AE, kotao, pomoćni sistemi) zavisi od broda.</li>
+<li><b>ETO</b> (<i>electro-technical officer</i>) - elektročasnik: razvod, automatika, navigacioni i komunikacioni sistemi, često i IT.</li>
+<li><b>AB</b> (<i>able seafarer deck</i>) - okretni mornar palube, s visim palubnim kompetencijama od OS-a.</li>
+<li><b>OS</b> (<i>ordinary seaman / deck rating</i>) - mornar palube na nižem stepenu, u obuci i opštim poslovima.</li>
+<li><b>Bosun</b> (<i>boatswain</i>) - brodski poslovođa palube, vodi dnevni rad AB/OS ekipe pod C/O-om.</li>
+<li><b>EOW</b> (<i>engineer of the watch</i>) - časnik na straži u mašini.</li>
+<li><b>CoC</b> (<i>certificate of competency</i>) - diploma / sertifikat osposobljenosti (zapovednik, časnik, upravnik mašine i tako dalje).</li>
+<li><b>CoE</b> (<i>certificate of endorsement</i> ili u UK često <i>certificate of equivalent competency</i>) - potvrda zastave da priznaje tuđu CoC, ili nacionalno priznanje jednakosti.</li>
+<li><b>GOC</b> (<i>General Operator's Certificate</i>) - GMDSS radio-sertifikat za sve oblasti, uključujući A3 i A4 (uz odgovarajuću opremu).</li>
+<li><b>ROC</b> (<i>Restricted Operator's Certificate</i>) - GMDSS sertifikat ograničen obično na područje A1 (VHF DSC).</li>
+<li><b>SRC</b> (<i>Short Range Certificate</i>) - kratki VHF/radio kurs, čest na jahtama i u rekreacionoj plovidbi; nije automatski isti dokument kao STCW ROC, proveri šta ti zastava i brod traže.</li>
+<li><b>BST</b> (<i>Basic Safety Training</i>, STCW A-VI/1) - osnovna bezbednosna obuka, sastavljena od PST, FPFF, EFA i PSSR.</li>
+<li><b>PST</b> (<i>Personal Survival Techniques</i>) - preživljavanje na moru: prsluk, splav, napuštanje broda.</li>
+<li><b>FPFF</b> (<i>Fire Prevention and Fire Fighting</i>) - osnovna obuka iz sprečavanja i gašenja požara, uključujući praktičan rad s aparatom i BA u vežbaoni.</li>
+<li><b>EFA</b> (<i>Elementary First Aid</i>) - osnovna prva pomoć.</li>
+<li><b>PSSR</b> (<i>Personal Safety and Social Responsibilities</i>) - lična bezbednost i društvene odgovornosti: SMS, alarmi, zlostavljanje, droga i alkohol, radne dozvole.</li>
+<li><b>MFA</b> (<i>Medical First Aid</i>) - proširena prva pomoć, iznad EFA, za časnika zaduženog za medicinski odgovor na brodu.</li>
+<li><b>PSCRB</b> (<i>Proficiency in Survival Craft and Rescue Boats, other than fast rescue boats</i>) - osposobljenost za čamce za spasavanje i spasilačke čamce (osim brzih).</li>
+<li><b>AFF</b> (<i>Advanced Fire Fighting</i>) - viša vatrogasna obuka, obavezna za časničke dužnosti vođenja gašenja.</li>
+<li><b>SAT</b> (<i>security awareness training</i>, STCW A-VI/6) - obuka svesti o zaštiti, za svu posadu.</li>
+<li><b>SDSD</b> / <b>PDSD</b> (<i>(proficiency in) designated security duties</i>) - osposobljenost za određene dužnosti zaštite, za one koji rade ISPS poslove ispod SSO-a.</li>
+<li><b>SSO course</b> - poseban kurs za brodskog oficira zaštite (STCW A-VI/5).</li>
+<li><b>ENG1</b> - britanski (MCA) lekarski sertifikat sposobnosti za pomorce; druge zastave imaju sopstvene obrasce, ali ENG1 je široko prepoznat.</li>
+<li><b>ML5</b> - uži britanski lekarski obrazac, ponekad viđen u jahtnom i priobalnom radu; nije zamena za ENG1 tamo gde se ENG1 traži.</li>
+<li><b>Seaman's book</b> (takođe <i>CDC, continuous discharge certificate</i>, ili nacionalna pomorska knjižica) - isprava o službi i ukrcajima; oblik zavisi od države.</li>
+<li><b>SEA</b> (<i>seafarer's employment agreement</i>) - ugovor o radu pomorca po MLC-u; treba da ga imaš na brodu i da znaš šta piše o plati, repatrijaciji i otkazu.</li>
+<li><b>TOR</b> - u praksi različito: često predaja dužnosti (<i>turnover report</i>) ili okvir zadatka (<i>terms of reference</i>). Ne pretpostavljaj značenje, pitaj u kom smislu se koristi.</li>
+<li><b>PYA</b> (<i>Professional Yachting Association</i>) - strukovno udruženje profesionalaca na jahtama; prati karijerne putanje i evidencije plovidbe.</li>
+<li><b>LY3</b> (<i>MCA Large Yacht Code</i>) - raniji britanski kodeks za velike jahte; još se pominje u dokumentima i prelaznim aranžmanima.</li>
+<li><b>REG Yacht Code</b> (<i>Red Ensign Group Yacht Code</i>) - važeći kodeks Crvene zastave za velike i putničke jahte (deo A i deo B), naslednik LY3.</li>
+<li><b>OOW (Yacht)</b> - jahtni sertifikat časnika straže, nije automatski isti kao trgovački OOW; ograničenja pišu na ispravi.</li>
+<li><b>Y4</b> / <b>Y3</b> - MCA inženjerski jahtni razredi (Y4 uži, Y3 viši); iznad njih idu Y2 i Y1, zavisno od snage i dužnosti.</li>
+<li><b>EDH</b> (<i>Efficient Deck Hand</i>) - palubni kurs/ispit koji se često traži na jahtama i na britanskom palubnom putu pre viših razreda.</li>
+<li><b>AEC</b> (<i>Approved Engine Course</i>) - uvodni odobreni mašinski kurs, čest prvi korak ka jahtnim inženjerskim svedočanstvima.</li>
+<li><b>HELM</b> (<i>Human Element, Leadership and Management</i>) - kurs o ljudskom faktoru i vođenju, u jahtnoj i trgovačkoj varijanti; povezan s BRM/ERM zahtevima.</li>
+</ul>
+<h3>Vanredne situacije i oprema</h3>
+<ul>
+<li><b>Muster list</b> / <b>station bill</b> - spisak uzbune: ko gde ide, koji je tvoj alarmni broj, ko nosi šta i ko je zamenik. Nauči ga prvog dana.</li>
+<li><b>LSA</b> (<i>life-saving appliances</i>) - sredstva za spasavanje: prsluci, čamci, splavovi, MOS, rakete, odela.</li>
+<li><b>FFA</b> / <b>FFE</b> (<i>fire-fighting appliances / equipment</i>) - vatrogasna oprema: aparati, hidranti, BA, fiksni sistemi, vrata, klapne.</li>
+<li><b>LSA Code</b> / <b>FSS Code</b> (<i>Life-Saving Appliances / Fire Safety Systems Code</i>) - IMO kodeksi koji detaljno propisuju LSA i fiksne vatrogasne sisteme.</li>
+<li><b>BA</b> / <b>SCBA</b> (<i>breathing apparatus / self-contained BA</i>) - izolacioni aparat za disanje za gašenje i spašavanje; nije isto što i EEBD.</li>
+<li><b>EEBD</b> (<i>emergency escape breathing device</i>) - aparat za beg iz zadimljenog prostora, obično 10-15 minuta. Samo za izlazak, ne za gašenje ni za ulazak u akciju.</li>
+<li><b>FRC</b> (<i>fast rescue craft / boat</i>) - brzi spasilački čamac, čest na putničkim brodovima i pri evakuaciji iz vode.</li>
+<li><b>MES</b> (<i>marine evacuation system</i>) - evakuacioni sistem (tobogan ili čaure) s palube do splavova, uglavnom na putničkim brodovima.</li>
+<li><b>HRU</b> (<i>hydrostatic release unit</i>) - hidrostatički otpuštač koji sam oslobađa splav (i često EPIRB) na određenoj dubini, tipično oko 2-4 metra, ako brod tone pre ručnog spuštanja.</li>
+<li><b>TPA</b> (<i>thermal protective aid</i>) - termalna zaštitna vreća u splavu, za pothlađivanje kad nema immersion suit-a.</li>
+<li><b>Immersion suit</b> - odelo za preživljavanje u hladnoj vodi; vežbaj zatvaranje i zatapanje u njemu dok si na suvom.</li>
+<li><b>PA</b> / <b>GA</b> (<i>public address / general alarm</i>) - razglas i opšti alarm. Opšti alarm i zvižduk imaju dogovorene šablone, ali uvek proveri i uputstvo na svom brodu.</li>
+<li><b>MOB</b> (<i>man overboard</i>) - čovek u moru. Uobičajeni zvučni znak je tri duga (signal „Oscar“), uz Williamson/Anderson ili drugi okret, bačeni prsluk/bovu i stalno pokazivanje osobe. Ponovo: proveri proceduru broda.</li>
+<li><b>CO2</b> (fiksni sistem) - totalno preplavljivanje prostorije ugljen-dioksidom, često u mašini, pumpovima i skladištu boja. Ljudi prvo napolje, brojanje, alarm i zadrška pre ispusta.</li>
+<li><b>FM-200</b> / <b>Novec 1230</b> - „čisti“ gasoviti agensi (HFC-227ea, odnosno FK-5-1-12), česti u elektro-prostorijama, server-salama i na jahtama. I oni istiskuju ili prekidaju gorenje: prostor se evakuiše pre ispusta.</li>
+<li><b>International shore connection</b> - standardni priključak da kopnena vatrogasna služba može da spoji vodu na brodski hidrantski sistem.</li>
+</ul>
+<h2>STCW osveženje</h2>
+<p>Ovo je podsetnik, ne kurs i ne pravni savet. Zastava, kompanija i datum tvoje isprave merodavni su za to šta moraš da obnoviš i gde.</p>
+<h3>Osnovni moduli</h3>
+<p><b>BST</b> (STCW Kodeks, odeljak A-VI/1) ima četiri dela:</p>
+<ul>
+<li><b>PST</b> - preživljavanje: alarm, prsluk, odelo, splav, ponašanje u vodi i u kolektivnim sredstvima.</li>
+<li><b>FPFF</b> - požar: prevencija, klase, aparati, creva, BA, dim, evakuacija i komandni lanac na vežbi.</li>
+<li><b>EFA</b> - prva pomoć: svest, disajni put, krvarenje, šok, opekotine, položaj, kada ne pomerati povređenog.</li>
+<li><b>PSSR</b> - život na brodu: alarmi, muster lista, dozvole za rad, zlostavljanje, umor, droga i alkohol, zaštita okoline.</li>
+</ul>
+<p>Uz to, prema dužnosti, dolaze <b>PSCRB</b>, <b>AFF</b>, <b>MFA</b> (i medicinska nega), <b>SSO</b>, <b>SAT</b> i <b>SDSD/PDSD</b>. Za zaštitu: svaka osoba treba svest o bezbednosti (SAT); ko ima određene ISPS dužnosti treba SDSD; SSO ima sopstveni kurs.</p>
+<h3>Obnova: šta je „na pet godina“</h3>
+<p>STCW traži da se kompetencija održava, a <b>mnogi praktični moduli obnavljaju se svakih pet godina</b>. Na nivou Konvencije, to se pre svega odnosi na module s praktičnim vežbama: <b>PST</b> i <b>FPFF</b> unutar osnovne obuke, kao i <b>PSCRB</b> i <b>AFF</b>. Kurs brzih spasilačkih čamaca, gde ga imaš, takođe ide u taj krug.</p>
+<p><b>EFA</b> i <b>PSSR</b> obično nemaju isti obavezni praktični „refresher“ na nivou samog STCW teksta, ali zastava, poslodavac ili kompanija mogu da traže više. Medicinski kursevi (MFA, medical care) često imaju sopstveni rok, opet po zastavi.</p>
+<p>Ne oslanjaj se na pamćenje iz jedne države. Pogledaj datum na svedočanstvu, zahtev zastave pod kojom ploviš i ono što kompanija traži pre ukrcaja.</p>
+<h3>Trougao i tetraedar požara</h3>
+<p>Klasični <b>trougao požara</b> ima tri elementa: <b>gorivo</b>, <b>toplotu</b> i <b>kiseonik</b>. Kad jedan ukloniš, gorenje prestaje. <b>Tetraedar</b> dodaje četvrti: <b>lančanu hemijsku reakciju</b>. Zato neki agensi (prašak, pojedini gasovi) „lome“ reakciju, voda prvenstveno hladi, pena odvaja kiseonik od goriva, a CO2 potiskuje kiseonik i delimično hladi.</p>
+<h3>Klase požara: Evropa, Amerika i brod</h3>
+<p>Ovde nastaje zabuna, jer <b>isto slovo ne znači istu stvar</b> u svakom priručniku.</p>
+<p>Po evropskom standardu <b>EN 2</b>:</p>
+<ul>
+<li><b>A</b> - čvrste materije (drvo, papir, tkanina, neke plastike), obično s žarom.</li>
+<li><b>B</b> - tečnosti i materije koje se tope (benzin, dizel, ulja, rastvarači, boje).</li>
+<li><b>C</b> - gasovi (propan, butan, metan, vodonik).</li>
+<li><b>D</b> - metali (magnezijum, natrijum, aluminijumski prah).</li>
+<li><b>F</b> - jestiva ulja i masti u kuhinjskim uređajima (friteza).</li>
+<li><b>Klasa E više nije u upotrebi.</b> Požar na električnoj opremi pod naponom nije posebna klasa, nego situacija: prvo, ako može, isključi napon, pa gasi agensom koji odgovara onome što gori i koji je bezbedan na struji.</li>
+</ul>
+<p>Po američkom <b>NFPA</b> pristupu (čest i u nekim brodskim priručnicima „IMO/US stila“):</p>
+<ul>
+<li><b>A</b> - obične čvrste materije.</li>
+<li><b>B</b> - zapaljive tečnosti <b>i gasovi</b> (ovde su gasovi u B, ne u C).</li>
+<li><b>C</b> - oprema <b>pod električnim naponom</b>. Kad napon isključiš, požar više nije „C“, nego A, B ili šta već ostane.</li>
+<li><b>D</b> - metali.</li>
+<li><b>K</b> - jestiva ulja i masti (kao evropski F).</li>
+</ul>
+<p>Na brodu možeš da sretneš oba sistema, zavisno od zastave, klase, proizvođača aparata i zemlje u kojoj je rađena obuka. <b>Merodavna je oznaka na aparatu i vatrogasni plan tog broda</b>, ne pamćenje slova s prethodnog ukrcaja.</p>
+<h3>Tipovi aparata i boje</h3>
+<p>U Evropi je telo prenosnog aparata <b>crveno</b>, a <b>sadržaj se prepoznaje po obojenoj traci</b> (praktikuje se preko EN 3 i nacionalnih vodiča kao što je BS 5306-10 u UK). Stariji aparati ponekad imaju celo telo u toj boji. Na brodovima pod drugim zastavama oznake mogu da izgledaju drugačije, zato <b>uvek čitaj natpis</b>.</p>
+<p>Tipična evropska traka:</p>
+<ul>
+<li><b>Crvena</b> (često bez druge trake) - <b>voda</b>. Za klasu A. <b>Ne koristi</b> na živoj struji, zapaljivim tečnostima, gasovima, metalima ni na vreloj masnoći (razpršuje goreću tečnost i može da napravi eksploziju pare u fritezi).</li>
+<li><b>Krem</b> - <b>pena</b>. Za A i B. <b>Ne koristi</b> na živoj struji (osim ako je aparat izričito ispitivan i označen za to), na gasovima, metalima i obično ne na klasi F.</li>
+<li><b>Plava</b> - <b>suvi prah</b> (često ABC). Za A, B, C i često za opremu pod naponom. Prlja, smanjuje vidljivost i može da ošteti elektroniku i mašine; u zatvorenom prostoru bude oblak u kom se teško diše i orijentisati. <b>Nije prvi izbor za fritezu</b> (može da razprši ulje i ne hladi dovoljno). Poseban prah za metale (klasa D) nije isti ABC prah; u novijoj UK praksi ta traka može biti i ljubičasta.</li>
+<li><b>Crna</b> - <b>CO2</b>. Za tečnosti (B) i električnu opremu pod naponom. Slab na dubokom žaru klase A (hladi slabo, može da se ponovo zapali). <b>Ne nišani u lice, ne drži goli rog</b> (hladnoća pravi opekotine), i <b>pazi u malom zatvorenom prostoru</b>: istiskuje kiseonik. Za klasu F nije pouzdan (može da razprši goreće ulje).</li>
+<li><b>Žuta</b> - <b>mokri hemijski agens</b> (<i>wet chemical</i>). Za klasu F (i obično A): pravi sapunastu koru na masnoći (saponifikacija) i hladi. To je aparat pored friteze, ne voda i ne CO2.</li>
+<li><b>Zelena</b> (retko) - stari „clean agent“ / halon; u civilnom radu je uglavnom povučen.</li>
+</ul>
+<p>Tehnika <b>PASS</b>: izvuci osigurač (<i>Pull</i>), nišani u <b>osnovu</b> plamena (<i>Aim</i>), stisni ručicu (<i>Squeeze</i>), prelazi mlazom levo-desno (<i>Sweep</i>). Gasi niz vetar/strujanje kad možeš, i ostavi stražu jer se požar zna vratiti.</p>
+<p>Na brodu su česti prenosni formati <b>9 L</b> (voda ili pena), <b>6 kg</b> prah, <b>5 kg CO2</b> (u manjim prostorijama i 2 kg). Poluprenosni, na točkovima, često su <b>45 L</b> i <b>135 L</b> pene (ponekad i veliki prah). Tačne veličine i raspored pišu u planu FFE; ovo su tipične, ne univerzalne mere.</p>
+<h3>Fiksni sistemi, detekcija i granice</h3>
+<ul>
+<li><b>CO2 total flooding</b>: evakuacija, brojanje ljudi, isključenje ventilacije, zvučni i vizuelni alarm, zadrška, tek onda ispust. Posle ispusta se ne ulazi bez BA, procedure i naređenja. Slučajni ispust u nastanjenoj mašini je smrtonosan.</li>
+<li><b>Sprinkler</b>: čest u smeštaju, pokreće se toplotom ili ručno/centralno, zavisno od sistema.</li>
+<li><b>Vodena magla / Hi-Fog</b>: sitne kapi, manje vode, česta u mašini, javnim prostorima i na jahtama.</li>
+<li><b>Pena</b>: palubni sistem na tankerima; ponekad i fiksna pena u mašini.</li>
+<li><b>Mokri hemijski sistem u kuhinji</b>: napa i friteza; ne gasiš to „hrabro“ vodom.</li>
+<li><b>FM-200 / Novec</b>: elektro-prostorije i slični zatvoreni volumeni; evakuacija pre ispusta i ovde važi.</li>
+</ul>
+<p>Detekcija: dimni, toplotni i plameni javljači, ručni javljači, centrala i ponavljači na mostu. <b>Požarna vrata</b> (A-60, A-30, A-0, B-15 i slično) i <b>klapne / damper-i</b> u ventilaciji zadržavaju vatru i dim. Vrata se ne ostavljaju pridržana klinom; ako ima magnetni držač, mora da otpusta na alarm.</p>
+<p><b>Hlađenje granica</b> (<i>boundary cooling</i>): s vodom se hlade pregrade, palube i vrata oko zahvaćene prostorije da se vatra ne prebaci. To je često posao ekipe koja nije u samoj prostoriji.</p>
+<p><b>Ulazak s BA</b>: nikad sam. Najmanje dvojka, kontrola na ulazu (tabla, pritisak, vreme, ime), veza, rezervna ekipa spremna, creva pod pritiskom, svetlo, briefing i odobrenje vođe akcije (obično C/O ili zapovednik). Izlazak kad padne vazduh, nestane veza, izgubiš orijentaciju ili stigne naređenje. <b>EEBD nije za napad na požar.</b></p>
+<h3>Zatvoreni prostor: kratka kontrolna lista</h3>
+<p>Po IMO rezoluciji A.1050(27), <b>normalan vazduh ima 20,9% kiseonika</b>; svako odstupanje treba tretirati oprezno. Mnoge kompanije dozvoljavaju ulazak samo oko te vrednosti (često blizu 20,8-21%). Pragovi tipa 19,5% iz nekih kopnenih propisa nisu „sigurna zona“, nego donja granica iz drugog sistema. <b>Tvoj SMS je merodavan.</b></p>
+<p>Uobičajena merenja, pre i tokom ulaska:</p>
+<ul>
+<li><b>O2</b> - cilj 20,9%. Ne ulazi ako je znatno ispod ili iznad normale (previsok kiseonik povećava rizik požara).</li>
+<li><b>LEL</b> / zapaljive pare - što bliže <b>0%</b>. I mali postotak donje granice eksplozivnosti je razlog da se ne ulazi, nego da se dodatno provetrava i meri.</li>
+<li><b>H2S</b> - cilj <b>0 ppm</b>. Alarmi su često na 5 ili 10 ppm, zavisno od instrumenta i kompanije.</li>
+<li><b>CO</b> - česti pragovi su 25 ili 50 ppm; i ovde je niže uvek bolje.</li>
+</ul>
+<p>Osnovni redosled: procena rizika i <b>dozvola za rad</b>, izolacija cevi i energije (LOTO), provetravanje, merenje <b>spolja</b> pre otvaranja koliko je moguće, zatim merenje unutra, <b>čovek napolju</b> (<i>standby / attendant</i>) koji ne ulazi „da pomogne“, dogovorena veza, plan izvlačenja i oprema za spašavanje spremna. Spašavanje iz zatvorenog prostora bez opreme i proceduri pravi dodatne žrtve. Atmosfera se menja dok radiš, zato se meri ponovo, ne samo na početku.</p>
+<h3>Napuštanje broda i preživljavanje</h3>
+<p><b>Signal za napuštanje broda</b> je u širokoj praksi <b>sedam kratkih i jedan dugi</b> na opštem alarmu i zvižduku. Ipak, potvrdi to na muster listi svog broda. Prvo se ide na zborno mesto, ako vreme i naređenje to dozvoljavaju, ne „pravo u splav“ na svoju ruku.</p>
+<p>Kratko:</p>
+<ul>
+<li>Prsluk pravilno vezan, svetlo i zviždaljka provereni.</li>
+<li>U hladnoj vodi immersion suit, vežban unapred.</li>
+<li>Splav: ručno spuštanje ako može; <b>HRU</b> je rezerva ako brod tone.</li>
+<li>EPIRB i SART/AIS-SART idu sa tobom, uključeni po proceduri.</li>
+<li>Ne skači ako možeš da se ukrcaš. Ako skačeš, prsluk pritisni, noge tesno, sa strane broda mimo elise i usisnika.</li>
+<li>U splavu: skupiti ljude, odmaknuti se od broda, brojati, zatvoriti otvore po potrebi, lekovi protiv morske bolesti, ne piti morsku vodu.</li>
+</ul>
+<h3>Signali uzbune (podsetnik)</h3>
+<p>Tačan šablon je onaj sa tvog broda. Najčešće:</p>
+<ul>
+<li><b>Opšti alarm / požar</b> - neprekidan ili unapred dogovoren niz na GA; detalj je na muster listi i na kartici za uzbunu.</li>
+<li><b>Napuštanje broda</b> - sedam kratkih i jedan dugi.</li>
+<li><b>Čovek u moru</b> - često tri duga.</li>
+</ul>
+<p>Čim se ukrcaš, prođi zborna mesta, put evakuacije, svoj aparat, svoj BA/EEBD i mesto u čamcu ili splavu.</p>
+<h3>Prva pomoć: DRSABC</h3>
+<p>Podsetnik, ne protokol za svaku zastavu i ne zamena za EFA/MFA:</p>
+<ul>
+<li><b>D</b> (<i>Danger</i>) - proveri opasnost. Ne postani drugi povređeni (struja, dim, pare, talas, mašina).</li>
+<li><b>R</b> (<i>Response</i>) - proveri odziv: progovori, lagano protresi ramena ako je bezbedno.</li>
+<li><b>S</b> (<i>Shout / Send</i>) - zovi pomoć, javi mostu, traži AED ako ga brod ima.</li>
+<li><b>A</b> (<i>Airway</i>) - otvori disajni put.</li>
+<li><b>B</b> (<i>Breathing</i>) - proveri disanje. Ako nema normalnog disanja, počinje oživljavanje po obuci.</li>
+<li><b>C</b> (<i>Circulation</i>) - krvarenje stišći pritiskom; krvotok se održava masažom srca kad je to indicirano.</li>
+</ul>
+<p>Ako osoba diše i sme da se pomera, stabilan (bočni) položaj. Sumnja na povredu kičme: što manje pomeranja, osim ako ga ostavljaš u neposrednoj opasnosti. Ovo je samo redosled sećanja; radi onako kako si obučen na kursevima.</p>
+<h2>Pitalica</h2>
+<p>Deset kratkih pitanja, odgovori odmah ispod svakog. Najbolje je da prvo zakloniš odgovor.</p>
+<ol>
+<li><b>Čemu služe ISM, SMS i DPA, i kako se razlikuju DOC i SMC?</b></li>
+</ol>
+<p>   ISM je kodeks, SMS je sistem kojim se kodeks sprovodi na kompaniji i brodu, DPA je osoba na kopnu kojoj možeš da se javiš mimo brodske hijerarhije. DOC je ISM dokument kompanije za tip broda, SMC je ISM sertifikat samog broda.</p>
+<ol>
+<li><b>Koja dva uobičajena značenja ima PMS?</b></li>
+</ol>
+<p>   <i>Planned Maintenance System</i> (planirano održavanje) i <i>power management system</i> (automatika agregata i razvoda). Kontekst ti kaže koje je.</p>
+<ol>
+<li><b>Šta je ISPS, a ko su SSO, CSO i PFSO?</b></li>
+</ol>
+<p>   ISPS je kodeks zaštite broda i luke. SSO je oficir zaštite na brodu, CSO u kompaniji, PFSO u luci.</p>
+<ol>
+<li><b>Koja je razlika između GMDSS područja A1 i A3?</b></li>
+</ol>
+<p>   A1 je zona VHF DSC obalske stanice. A3 je šira zona priznate mobilne satelitske službe (izvan A1/A2, uglavnom između otprilike 70°S i 70°N), ne samo „kad nestane VHF“.</p>
+<ol>
+<li><b>Zašto klasa C nije ista u Evropi i u SAD?</b></li>
+</ol>
+<p>   U EN 2, C su gasovi, a struja nije klasa. U NFPA sistemu, C je oprema pod naponom, a gasovi spadaju u B.</p>
+<ol>
+<li><b>Šta koristiš na požaru friteze, a šta ne?</b></li>
+</ol>
+<p>   Mokri hemijski aparat (žuta traka, klasa F ili K) ili fiksni kuhinjski sistem. <b>Ne vodu.</b> CO2 i prah nisu dobar prvi izbor jer mogu da razprše goreće ulje i slabo hlade.</p>
+<ol>
+<li><b>Čemu služi EEBD, a čemu ne?</b></li>
+</ol>
+<p>   Samo za beg iz zadimljenog ili zagađenog vazduha, kratko vreme. Ne služi za gašenje, za ulazak u prostoriju i za spašavanje drugih umesto BA.</p>
+<ol>
+<li><b>Koji je uobičajeni signal za napuštanje broda?</b></li>
+</ol>
+<p>   Sedam kratkih i jedan dugi, na alarmu i zvižduku, uz proveru na muster listi tog broda.</p>
+<ol>
+<li><b>Koja je normalna vrednost O2 za zatvoreni prostor i šta još mora da postoji pre ulaska?</b></li>
+</ol>
+<p>   20,9%. Uz to: dozvola, izolacija, merenje O2/LEL/toksičnih gasova, čovek napolju i plan spašavanja. SMS određuje tačne pragove.</p>
+<ol>
+<li><b>Šta znači PASS?</b></li>
+</ol>
+<p>    Izvuci osigurač, nišani u osnovu plamena, stisni ručicu, prelazi mlazom levo-desno.</p>
+<p>Ako si na neko pitanje zapao, vrati se na odgovarajući odeljak i pročitaj ga još jednom, pa ponovi samo ta pitanja. To je baš onaj tip prisećanja koji duže ostaje.</p>
+<h2>Izvori</h2>
+<ul>
+<li><a href="https://www.imo.org/en/about/conventions/pages/international-convention-on-standards-of-training%2C-certification-and-watchkeeping-for-seafarers-%28stcw%29.aspx">IMO - STCW konvencija</a></li>
+<li><a href="https://www.imo.org/en/About/Conventions/Pages/International-Convention-for-the-Safety-of-Life-at-Sea-(SOLAS">IMO - SOLAS</a>,-1974.aspx)</li>
+<li><a href="https://www.imo.org/en/About/Conventions/Pages/International-Convention-for-the-Prevention-of-Pollution-from-Ships-(MARPOL">IMO - MARPOL</a>.aspx)</li>
+<li><a href="https://www.imo.org/en/OurWork/HumanElement/Pages/ISMCode.aspx">IMO - ISM kodeks</a></li>
+<li><a href="https://www.imo.org/en/OurWork/Security/Pages/SOLAS-XI-2%20ISPS%20Code.aspx">IMO - ISPS kodeks</a></li>
+<li><a href="https://www.imo.org/en/About/Conventions/Pages/COLREG.aspx">IMO - COLREG</a></li>
+<li><a href="https://www.imo.org/en/About/Conventions/Pages/International-Convention-on-Load-Lines.aspx">IMO - konvencija o tovarnoj marki (Load Lines)</a></li>
+<li><a href="https://www.imo.org/en/OurWork/MSAS/Pages/PortStateControl.aspx">IMO - Port State Control</a></li>
+<li><a href="https://www.imo.org/en/About/Conventions/Pages/International-Convention-for-the-Control-and-Management-of-Ships'-Ballast-Water-and-Sediments-(BWM">IMO - balastne vode (BWM)</a>.aspx)</li>
+<li><a href="https://www.imo.org/en/MediaCentre/HotTopics/Pages/EEXI-CII-FAQ.aspx">IMO - EEXI i CII, pitanja i odgovori</a></li>
+<li><a href="https://www.imo.org/en/MediaCentre/HotTopics/Pages/Reducing-greenhouse-gas-emissions-from-ships.aspx">IMO - smanjenje emisija stakleničkih gasova s brodova</a></li>
+<li><a href="https://wwwcdn.imo.org/localresources/en/KnowledgeCentre/IndexofIMOResolutions/AssemblyDocuments/A.1050(27">IMO - rezolucija A.1050(27), ulazak u zatvorene prostore (PDF)</a>.pdf)</li>
+<li><a href="https://www.ilo.org/international-labour-standards/maritime-labour-convention-2006">ILO - Maritime Labour Convention, 2006</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Fire_class">Wikipedia - klase požara (EN 2 i NFPA)</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Fire_extinguisher">Wikipedia - vatrogasni aparati i oznake</a></li>
+<li><a href="https://www.london-fire.gov.uk/media/cnyexexn/hand-held-portable-firefighting-equipment-gn08.pdf">London Fire Brigade - prenosna vatrogasna oprema, boje i klase (PDF, GN08)</a></li>
+<li><a href="https://www.nfpa.org/education-and-research/home-fire-safety/fire-extinguishers">NFPA - osnove o aparatima i klasama u SAD</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Global_Maritime_Distress_and_Safety_System">Wikipedia - GMDSS</a></li>
+<li><a href="https://en.wikipedia.org/wiki/International_Ship_and_Port_Facility_Security_Code">Wikipedia - ISPS kodeks</a></li>
+<li><a href="https://en.wikipedia.org/wiki/International_Safety_Management_Code">Wikipedia - ISM kodeks</a></li>
+<li><a href="https://en.wikipedia.org/wiki/STCW_Convention">Wikipedia - STCW</a></li>
+</ul>]]></content:encoded>
+</item>
 <item>
 <title>Kako da naučeno ostane u glavi</title>
 <link>https://icemonk79.github.io/citaonica-rss/#citaonica-2026-11-26</link>
