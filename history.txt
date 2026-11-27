@@ -9,3 +9,4 @@
 2026-11-25  tema  Segmentacija brodske mreže: zašto Wi-Fi za goste ne sme da vidi most  — mreže i bezbednost: VLAN, zone, firewall pravila, IMO/IACS E26-E27, česte greške
 2026-11-26  knjiga  Make It Stick (Peter C. Brown, Henry L. Roediger III, Mark A. McDaniel, 2014)  — prisećanje, razmak, mešanje, poželjne teškoće, iluzija znanja + primena uz ADHD i tehnički posao
 2026-11-26  ekstra  Brodske skraćenice i STCW osveženje  — na zahtev, van dnevne rotacije: rečnik brodskih skraćenica + STCW osveženje (požari, aparati)
+2026-11-27  tema  Mali krvni sudovi mozga: zašto je ono što čuva srce dobro i za glavu  — mozak i krvni sudovi: CSVD, pritisak, SPRINT MIND, Life's Essential 8, Lancet 2024 + praktični koraci\n
